@@ -10,7 +10,17 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+  page-footer: 
+    left: "Copyright 2022, Nitish Raj"
+    right:
+      - icon: github
+        href: https://github.com/nitish-raj/nitish-raj.github.io
+    background: light
+  reader-mode: true
+  repo-url: https://github.com/nitish-raj/nitish-raj.github.io
+  repo-actions: [edit, issue]
 
 format:
   html:
