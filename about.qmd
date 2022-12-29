@@ -15,7 +15,7 @@ about:
           href: https://www.kaggle.com/nitishraj
 ---
 
-#### Nitish is the BIE II at Amazon
+#### Nitish is currently working as BIE II at Amazon
 
 ## Education
 
