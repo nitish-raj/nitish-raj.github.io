@@ -3,7 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "Nitish's Website"
+  title: "Welcome to Nitish's Blog"
+  site-url: www.thenitishraj.com
+  description: "Nitish's personal website for project portfolio and blogs"
   navbar:
     background: dark
     search: true
@@ -17,10 +19,16 @@ website:
     right:
       - icon: github
         href: https://github.com/nitish-raj/nitish-raj.github.io
+      - icon: rss
+        href: index.xml
     background: light
   reader-mode: true
   repo-url: https://github.com/nitish-raj/nitish-raj.github.io
   repo-actions: [edit, issue]
+  favicon: images/NR_LOGO.png
+  google-analytics:
+    tracking-id: "G-8XLMJJ3B7Z"
+    storage: cookies
 
 format:
   html:
