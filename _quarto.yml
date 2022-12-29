@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Nitish's Website"
+  navbar:
+    background: dark
+    search: true
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: auto
+
