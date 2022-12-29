@@ -26,9 +26,9 @@ website:
   repo-url: https://github.com/nitish-raj/nitish-raj.github.io
   repo-actions: [edit, issue]
   favicon: images/NR_LOGO.png
-  google-analytics:
-    tracking-id: "G-8XLMJJ3B7Z"
-    storage: cookies
+ # google-analytics:
+  #  tracking-id: "G-8XLMJJ3B7Z"
+   # storage: cookies
 
 format:
   html:
