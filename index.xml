@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Welcome to Nitish&#39;s Blog</title>
+<link>www.thenitishraj.com/index.html</link>
+<atom:link href="www.thenitishraj.com/index.xml" rel="self" type="application/rss+xml"/>
+<description>Nitish&#39;s personal website for project portfolio and blogs</description>
+<generator>quarto-1.2.280</generator>
+<lastBuildDate>Thu, 29 Dec 2022 22:15:23 GMT</lastBuildDate>
+</channel>
+</rss>
