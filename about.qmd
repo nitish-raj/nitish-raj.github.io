@@ -1,5 +1,26 @@
 ---
-title: "About"
+title: "Nitish Raj"
+about:
+    template: solana
+    image: images/IMG_0609.jpeg
+    links: 
+        - icon: linkedin
+          text: Linkedin
+          href: https://www.linkedin.com/in/nitish-raj/
+        - icon: github
+          text: Github
+          href: https://github.com/nitish-raj
+
 ---
 
-About this site
+Nitish is the BIE II at Amazon (Luxembourg)
+
+## Education
+
+Bachelor of Engineering - Computer Science | India - 2015
+
+## Experience
+
+Amazon | BIE II | August 2018 - Present
+
+Mu Sigma | Decision Scientist | July 2015 - July 2018
