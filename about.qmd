@@ -13,9 +13,10 @@ about:
         - icon: google
           text: Kaggle
           href: https://www.kaggle.com/nitishraj
+comments: false
 ---
 
-#### Nitish is the BIE II at Amazon
+#### Nitish is currently working as BIE II at Amazon
 
 ## Education
 
