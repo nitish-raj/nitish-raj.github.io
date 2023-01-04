@@ -1,41 +1,12 @@
 project:
   type: website
   output-dir: docs
+  preview:
+    port: 8000
 
-website:
-  title: "Welcome to Nitish's Blog"
-  site-url: www.thenitishraj.com
-  description: "Nitish's personal website for project portfolio and blogs"
-  navbar:
-    background: dark
-    search: true
-    right:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-  page-footer: 
-    left: "Copyright 2022, Nitish Raj"
-    right:
-      - icon: github
-        href: https://github.com/nitish-raj/nitish-raj.github.io
-      - icon: rss
-        href: index.xml
-    background: light
-  reader-mode: true
-  repo-url: https://github.com/nitish-raj/nitish-raj.github.io
-  repo-actions: [edit, issue]
-  favicon: images/NR_LOGO.png
- # google-analytics:
-  #  tracking-id: "G-8XLMJJ3B7Z"
-   # storage: cookies
-
-format:
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+metadata-files:
+  - _website.yml
+  - _format.yml
 
 execute:
   freeze: auto
-

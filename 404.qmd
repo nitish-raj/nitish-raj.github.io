@@ -1,0 +1,8 @@
+---
+title: 👀
+subtitle: I've looked everywhere and the page you're looking for doesn't exist (yet?). 🙍
+description: Celebrate your accomplishment with the comment section below! 🎉
+toc: false
+---
+
+_Alternatively_, Head [home](index.qmd) ?
