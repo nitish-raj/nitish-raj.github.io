@@ -9,4 +9,4 @@ format:
       html:
         link-external-icon: true
         link-external-newwindow: true
-        link-external-filter: '^(?:http:|https:)\/\/nitishraj\.github\.io\/'
+        link-external-filter: '^(?:http:|https:)\/\/nitish-raj\.github\.io\/'

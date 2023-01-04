@@ -15,8 +15,8 @@ website:
       - href: about.qmd
         text: About
   page-footer:
-    left: "This page is built with ❤️ and [Quarto](https://quarto.org)"
-    center: "Copyright @ Nitish Raj, 2022"
+    left: "This page is built with ❤️ and [Quarto](https://quarto.org) | [Site Feedback](feedback.qmd)" 
+    center: "Copyright © 2022, Nitish Raj"
     right:
       - icon: github
         href: https://github.com/nitish-raj/nitish-raj.github.io
