@@ -2,8 +2,8 @@
 website:
   title: "Nitish Raj"
   site-url: www.thenitishraj.com
-  description: "Nitish's personal website for project portfolio and blogs"
-  favicon: images/NR_LOGO.png
+  description: "Nitish's personal website"
+  favicon: images/technology.png # Technology icons created by Smashicons - Flaticon
   image: images/website_index.jpeg
   search: 
       location: navbar
@@ -28,7 +28,7 @@ website:
       - icon: rss
         href: index.xml
     background: light
-  reader-mode: true
+  reader-mode: false
   repo-url: https://github.com/nitish-raj/nitish-raj.github.io
   repo-actions: [edit, issue]
   google-analytics:

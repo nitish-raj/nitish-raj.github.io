@@ -3,7 +3,7 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
     smooth-scroll: true
     format:
       html:
