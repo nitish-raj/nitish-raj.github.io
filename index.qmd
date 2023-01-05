@@ -1,19 +1,24 @@
 ---
-title: "This page is under construction"
 listing: 
     contents: posts
     sort: "date desc"
     type: default
-    categories: true
+    categories: false
     feed: true
 page-layout: full
-title-block-banner: false
+title-block-banner: true
 comments: false
+search_exclude: true
+image: images/website_index.jpeg
+---
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=http%3A%2F%2Fnitish-raj.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" /></a>
+
+
+<div style="text-align: center;">
+![](images/website_index.jpeg){width="900px"}
+</div>
+
 ---
 
-#### Contents are coming Soon!!
-
-___
-### Meanwhile kindly support me ☕️
-
-<a href="https://www.buymeacoffee.com/nitishraj"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=nitishraj&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+<center><h3>Contents are coming soon! Meanwhile you can <a href="https://www.buymeacoffee.com/nitishraj"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=nitishraj&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a></h3>
+</center>

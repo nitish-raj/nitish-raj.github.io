@@ -1,32 +1,36 @@
 
 website:
-  title: "Welcome to Nitish's Blog"
+  title: "Nitish Raj"
   site-url: www.thenitishraj.com
-  description: "Nitish's personal website for project portfolio and blogs"
+  description: "Nitish's personal website"
+  favicon: images/technology.png # Technology icons created by Smashicons - Flaticon
+  image: images/website_index.jpeg
   search: 
       location: navbar
       type: textbox
       copy-button: true
   navbar:
+    pinned: true
     background: dark
     right:
       - href: index.qmd
+        icon: house
         text: Home
       - href: about.qmd
-        text: About
+        icon: file-person
+        text: About me
   page-footer:
-    left: "This page is built with ❤️ and [Quarto](https://quarto.org)"
-    center: "Copyright @ Nitish Raj, 2022"
+    left: "This page is built with ❤️ and [Quarto](https://quarto.org) | [Site Feedback](feedback.qmd)" 
+    center: "Copyright © 2022, Nitish Raj"
     right:
       - icon: github
         href: https://github.com/nitish-raj/nitish-raj.github.io
       - icon: rss
         href: index.xml
     background: light
-  reader-mode: true
+  reader-mode: false
   repo-url: https://github.com/nitish-raj/nitish-raj.github.io
   repo-actions: [edit, issue]
-  favicon: images/NR_LOGO.png
   google-analytics:
     tracking-id: G-8XLMJJ3B7Z
     storage: cookies

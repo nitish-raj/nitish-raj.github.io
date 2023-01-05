@@ -3,6 +3,7 @@ title: "Nitish Raj"
 about:
     template: trestles
     image: images/IMG_0609.jpeg
+    image-shape: round
     links: 
         - icon: linkedin
           text: Linkedin
@@ -14,16 +15,43 @@ about:
           text: Kaggle
           href: https://www.kaggle.com/nitishraj
 comments: false
+page-layout: full
 ---
 
 #### Nitish is currently working as BIE II at Amazon
 
-## Education
+:::{.panel-tabset}
 
-- Bachelor of Engineering - Computer Science | India - 2015
+# Experience
 
-## Experience
+**Amazon** | BIE II | August 2018 - Present
 
-- Amazon | BIE II | August 2018 - Present
+**Mu Sigma** | Decision Scientist | July 2015 - July 2018
 
-- Mu Sigma | Decision Scientist | July 2015 - July 2018
+# Skills
+
+**Programming**: Python , R
+
+**Visualisation**: Tableau, PowerBI, QuickSight
+
+**Machine Learnign & Deep Learning**: Scikit-Learn, Pytorch
+
+**Deployment & Cloud**: Amazon AWS, Docker
+
+:::
+
+:::{.panel-tabset}
+
+# Education
+
+**Bachelor of Engineering** | Computer Science | India - 2015
+
+# Language
+
+**English**: Fluent with not so Indian accent
+
+**Hindi**: Mother tongue
+
+**French**: Currently Learning (A1)
+
+:::
