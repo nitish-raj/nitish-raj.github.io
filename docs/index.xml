@@ -5,16 +5,16 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Nitish Raj</title>
+<title>NITISH RAJ</title>
 <link>www.thenitishraj.com/index.html</link>
 <atom:link href="www.thenitishraj.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Nitish&#39;s personal website</description>
 <image>
 <url>www.thenitishraj.com/images/website_index.jpeg</url>
-<title>Nitish Raj</title>
+<title>NITISH RAJ</title>
 <link>www.thenitishraj.com/index.html</link>
 </image>
 <generator>quarto-1.2.280</generator>
-<lastBuildDate>Thu, 05 Jan 2023 23:42:10 GMT</lastBuildDate>
+<lastBuildDate>Fri, 06 Jan 2023 00:00:45 GMT</lastBuildDate>
 </channel>
 </rss>

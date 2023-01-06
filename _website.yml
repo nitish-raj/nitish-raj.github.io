@@ -1,6 +1,9 @@
+project:
+  type: website
+
 
 website:
-  title: "Nitish Raj"
+  title: "NITISH RAJ"
   site-url: www.thenitishraj.com
   description: "Nitish's personal website"
   favicon: images/technology.png # Technology icons created by Smashicons - Flaticon
@@ -46,3 +49,5 @@ website:
       input-position: top
       loading: lazy
       theme: "transparent_dark"
+
+editor: visual

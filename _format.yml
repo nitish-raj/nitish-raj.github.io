@@ -9,4 +9,9 @@ format:
       html:
         link-external-icon: true
         link-external-newwindow: true
-        link-external-filter: '^(?:http:|https:)\/\/nitish-raj\.github\.io\/'
+        link-external-filter: '^(?:http:|https:)\/\/www\.thenitishraj\.com\/**'
+        citations-hover: true
+        footnotes-hover: true
+        include-in-header: meta.html
+        #toc: true
+        code-link: true
