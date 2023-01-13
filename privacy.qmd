@@ -3,7 +3,6 @@ page-layout: full
 title-block-banner: true
 comments: false
 search_exclude: true
-image: images/website_index.jpeg
 ---
 <h2 style="text-align: center;"><b>PRIVACY POLICY</b></h2>
 <p>Effective date: 2023-01-01</p>
@@ -159,4 +158,4 @@ image: images/website_index.jpeg
 <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
 
 <p>21. <b>Contact Us</b></p>
-<p>If you have any questions about this Privacy Policy, please contact us by email: <b>raj_nitish@outlook.com</b>.</p>
+<p>If you have any questions about this Privacy Policy, please contact us by email: <b> {{< var email.support >}} </b>.</p>
