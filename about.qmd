@@ -2,7 +2,7 @@
 title: "Nitish Raj"
 about:
     template: trestles
-    image: images/IMG_0609.jpeg
+    image: images/personal.jpeg
     image-shape: round
     links: 
         - icon: linkedin
@@ -48,10 +48,12 @@ page-layout: full
 
 # Language
 
-**English**: Fluent with not so Indian accent
+**English**: Fluent
 
 **Hindi**: Mother tongue
 
 **French**: Currently Learning (A1)
 
 :::
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7111993278884033" crossorigin="anonymous"></script>

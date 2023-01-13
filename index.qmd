@@ -9,16 +9,18 @@ page-layout: full
 title-block-banner: true
 comments: false
 search_exclude: true
-image: images/website_index.jpeg
+image: images/page_landing.jpeg
 ---
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=http%3A%2F%2Fnitish-raj.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=datacamp.svg&icon_color=%23E7E7E7&title=visitors&edge_flat=false" /></a>
 
 
 <div style="text-align: center;">
-![](images/website_index.jpeg){width="900px"}
+![](images/page_landing.jpeg){width="1200px"}
 </div>
 
 ---
 
 <center><h3>The content is coming soon! Meanwhile you can <a href="https://www.buymeacoffee.com/nitishraj"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=nitishraj&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a></h3>
 </center>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7111993278884033" crossorigin="anonymous"></script>

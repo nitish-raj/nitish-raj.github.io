@@ -1,6 +1,7 @@
 # Quarto
 /.quarto/
 /_site/
+/_extensions/
 
 # Distribution / packaging
 .Python
@@ -49,3 +50,4 @@ docs/
 
 # Ignore code-workspaces
 *.code-workspace
+/.luarc.json

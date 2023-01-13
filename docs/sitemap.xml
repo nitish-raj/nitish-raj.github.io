@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>www.thenitishraj.com/ssl-redirect.html</loc>
+    <lastmod>2023-01-13T13:04:29.611Z</lastmod>
+  </url>
+  <url>
     <loc>www.thenitishraj.com/index.html</loc>
-    <lastmod>2023-01-06T23:03:41.668Z</lastmod>
+    <lastmod>2023-01-13T13:04:30.420Z</lastmod>
   </url>
   <url>
     <loc>www.thenitishraj.com/about.html</loc>
-    <lastmod>2023-01-06T23:03:42.065Z</lastmod>
+    <lastmod>2023-01-13T13:04:30.785Z</lastmod>
   </url>
   <url>
     <loc>www.thenitishraj.com/feedback.html</loc>
-    <lastmod>2023-01-06T23:03:42.444Z</lastmod>
+    <lastmod>2023-01-13T13:04:31.141Z</lastmod>
+  </url>
+  <url>
+    <loc>www.thenitishraj.com/privacy.html</loc>
+    <lastmod>2023-01-13T13:04:31.839Z</lastmod>
   </url>
 </urlset>
