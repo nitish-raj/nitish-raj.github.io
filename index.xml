@@ -10,11 +10,11 @@
 <atom:link href="www.thenitishraj.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Nitish&#39;s personal website</description>
 <image>
-<url>www.thenitishraj.com/images/website_index.jpeg</url>
+<url>www.thenitishraj.com/images/page_landing.jpeg</url>
 <title>NITISH RAJ</title>
 <link>www.thenitishraj.com/index.html</link>
 </image>
 <generator>quarto-1.2.280</generator>
-<lastBuildDate>Thu, 12 Jan 2023 16:22:49 GMT</lastBuildDate>
+<lastBuildDate>Fri, 13 Jan 2023 13:05:58 GMT</lastBuildDate>
 </channel>
 </rss>
