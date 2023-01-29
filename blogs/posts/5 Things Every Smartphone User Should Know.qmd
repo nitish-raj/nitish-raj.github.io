@@ -1,0 +1,16 @@
+---
+title: "5 Things Every Smartphone User Should Know"
+subtitle: "Unlock Your Mobile Phone’s NOT-so-Secret Cheats"
+image: blogs/images/smartphone.jpeg
+author: "Nitish Raj"
+date: "2023-01-09"
+categories: [Digital Thoughts]
+open-graph:
+  description: "Unlock Your Mobile Phone’s NOT-so-Secret Cheats"
+  image: blogs/images/smartphone.jpeg
+twitter-card:
+  description: "Unlock Your Mobile Phone’s NOT-so-Secret Cheats"
+  image: blogs/images/smartphone.jpeg
+page-layout: full
+draft: true
+---

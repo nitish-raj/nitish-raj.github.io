@@ -2,12 +2,14 @@ project:
   type: website
 
 
+
 website:
   title: "NITISH RAJ"
   site-url: www.thenitishraj.com
   description: "Nitish's personal website"
   favicon: images/blogging.png # Blog icons created by Freepik - Flaticon
   image: images/page_landing.jpeg
+  twitter-card: true
   search: 
       location: navbar
       type: textbox
@@ -43,6 +45,7 @@ website:
     tracking-id: G-8XLMJJ3B7Z
     storage: cookies
   open-graph: true
+
 
   comments: 
     giscus: 
