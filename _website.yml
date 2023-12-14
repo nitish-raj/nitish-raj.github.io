@@ -27,11 +27,7 @@ website:
   page-footer:
     left: "This page is built with ❤️ and [Quarto](https://quarto.org)" 
     center: 
-<<<<<<< HEAD
-      - text: "© Nitish Raj 2023"
-=======
       - text: "Copyright © 2023, Nitish Raj"
->>>>>>> main
     right:
       - icon: github
         href: https://github.com/nitish-raj/nitish-raj.github.io
