@@ -1,10 +1,6 @@
-project:
-  type: website
-
-
 website:
-  title: "NITISH RAJ"
-  site-url: www.rajnitish.com
+  title: "Nitish Raj"
+  site-url: https://www.rajnitish.com
   description: "Nitish's personal website"
   favicon: images/blogging.png # Blog icons created by Freepik - Flaticon
   image: images/page_landing.jpeg
@@ -23,7 +19,7 @@ website:
         icon: file-person
         text: About me
   page-footer:
-    left: "This page is built with [Quarto](https://quarto.org)" 
+    left: "This page is built with [Quarto](https://www.quarto.org)" 
     center: 
       - text: "Copyright © 2023, Nitish Raj"
     right:
@@ -43,6 +39,7 @@ website:
     tracking-id: G-8XLMJJ3B7Z
     storage: cookies
   open-graph: true
+  cookie-consent: false
 
   comments: 
     giscus: 

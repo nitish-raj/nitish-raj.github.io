@@ -1,6 +1,6 @@
-
 format:
   html:
+    title-block-banner: true
     theme: cosmo
     css: styles.css
     toc: false
