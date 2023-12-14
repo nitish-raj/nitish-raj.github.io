@@ -23,7 +23,7 @@ website:
         icon: file-person
         text: About me
   page-footer:
-    left: "This page is built with ❤️ and [Quarto](https://quarto.org)" 
+    left: "This page is built with [Quarto](https://quarto.org)" 
     center: 
       - text: "Copyright © 2023, Nitish Raj"
     right:

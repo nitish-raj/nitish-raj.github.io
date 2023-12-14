@@ -24,7 +24,7 @@ share/python-wheels/
 MANIFEST
 
 # pkgdown site
-docs/
+
 
 ### VisualStudioCode ###
 .vscode/*
