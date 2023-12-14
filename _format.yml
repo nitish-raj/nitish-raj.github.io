@@ -9,7 +9,7 @@ format:
       html:
         link-external-icon: true
         link-external-newwindow: true
-        link-external-filter: '^(?:http:|https:)\/\/www\.thenitishraj\.com\/**'
+        link-external-filter: '^(?:http:|https:)\/\/www\.rajnitish\.com\/**'
         citations-hover: true
         footnotes-hover: true
         include-in-header: meta.html

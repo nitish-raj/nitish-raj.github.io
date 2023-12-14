@@ -4,7 +4,7 @@ project:
 
 website:
   title: "NITISH RAJ"
-  site-url: www.thenitishraj.com
+  site-url: www.rajnitish.com
   description: "Nitish's personal website"
   favicon: images/blogging.png # Blog icons created by Freepik - Flaticon
   image: images/page_landing.jpeg
@@ -25,7 +25,7 @@ website:
   page-footer:
     left: "This page is built with ❤️ and [Quarto](https://quarto.org)" 
     center: 
-      - text: "Copyright © 2022, Nitish Raj"
+      - text: "Copyright © 2023, Nitish Raj"
     right:
       - icon: github
         href: https://github.com/nitish-raj/nitish-raj.github.io
