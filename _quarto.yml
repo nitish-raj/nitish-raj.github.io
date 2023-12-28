@@ -10,3 +10,5 @@ metadata-files:
 
 execute:
   freeze: auto
+
+commentable: true
