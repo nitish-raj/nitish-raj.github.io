@@ -5,49 +5,62 @@ project:
 website:
   title: "Nitish Raj"
   site-url: https://www.rajnitish.com
+  
   description: "Nitish's personal website"
   favicon: images/blogging.png # Blog icons created by Freepik - Flaticon
   image: images/page_landing.jpeg
+  twitter-card:
+    site: "@thenitishraj"
   search: 
       location: navbar
-      type: textbox
+      type: overlay
       copy-button: true
   navbar:
+    logo: images/blogging.png
     pinned: true
-    background: dark
+    background: white
+    left:
+      - text: Engineered Insights Blog
+        href: https://engineeredinsights.substack.com?utm_source=navbar&utm_medium=web&r=2aspew
+      - text: Playground
+        file: content/playgroundindex.qmd
+      - file: bookconsulationcall.qmd
+        text: Book Consulation Call
+        
     right:
-      - href: index.qmd
-        icon: house
-        text: Home
       - href: about.qmd
         icon: file-person
         text: About me
+  
   page-footer:
-    left: "This page is built with [Quarto](https://www.quarto.org)" 
-    center: 
-      - text: "Copyright © 2023, Nitish Raj"
+    border: true
+    left: |
+        Copyright © 2023, Nitish Raj <br>
+        This page is built using [Quarto](https://quarto.org)
+    
     right:
-      - icon: github
+      - text: Source at Github
         href: https://github.com/nitish-raj/nitish-raj.github.io
       - icon: rss
         href: index.xml
       - href: privacy.qmd
         text: Privacy Policy
-      - href: feedback.qmd
-        text: Site Feedback
     background: light
-  reader-mode: false
+  reader-mode: true
+  
   repo-url: https://github.com/nitish-raj/nitish-raj.github.io
-  repo-actions: [edit, issue]
+  repo-actions: [issue]
+
   google-analytics:
     tracking-id: G-8XLMJJ3B7Z
     storage: cookies
   open-graph: true
-  cookie-consent: false
+  cookie-consent: true
+
 
   comments: 
     giscus: 
-      repo : "nitish-raj/nitish-raj.github.io"
+      repo : nitish-raj/nitish-raj.github.io
       repo-id : R_kgDOIsXIEQ
       category: Giscus Comments
       category-id : DIC_kwDOIsXIEc4CTULI
