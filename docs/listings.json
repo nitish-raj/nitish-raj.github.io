@@ -1,10 +1,10 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/content/playgroundindex.html",
     "items": []
   },
   {
-    "listing": "/content/playgroundindex.html",
+    "listing": "/index.html",
     "items": []
   }
 ]

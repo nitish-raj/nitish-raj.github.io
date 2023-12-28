@@ -48,7 +48,7 @@ ul.task-list li input[type="checkbox"] {
   "copy-button": true,
   "collapse-after": 3,
   "panel-placement": "end",
-  "type": "textbox",
+  "type": "overlay",
   "limit": 20,
   "language": {
     "search-no-results-text": "No results",
@@ -115,16 +115,12 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://engineeredinsights.substack.com/?utm_source=substack&amp;utm_medium=web&amp;utm_campaign=substack_profile" rel="" target="">
+    <a class="nav-link" href="https://engineeredinsights.substack.com?utm_source=navbar&amp;utm_medium=web&amp;r=2aspew" rel="" target="">
  <span class="menu-text">Engineered Insights Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/nitish-raj/ThePlayground" rel="" target="">
- <span class="menu-text">The Playground</span></a>
+    <a class="nav-link" href="./content/playgroundindex.html" rel="" target="">
+ <span class="menu-text">Playground</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./bookconsulationcall.html" rel="" target="">
@@ -140,6 +136,11 @@ cookieconsent.run({
 </ul>
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -521,11 +522,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/nitish-raj/nitish-raj.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/nitish-raj/nitish-raj.github.io">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/nitish-raj/nitish-raj.github.io">Source at Github</a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="./index.xml">
