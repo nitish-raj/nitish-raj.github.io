@@ -2,6 +2,7 @@
 /.quarto/
 /_site/
 /_extensions/
+/_freeze/
 
 # Distribution / packaging
 .Python
