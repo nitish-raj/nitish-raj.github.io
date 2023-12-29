@@ -3,7 +3,6 @@ format:
     theme:
       light: 
         - flatly
-        - _variables.scss
       dark: darkly
     css: styles.css
     toc: false

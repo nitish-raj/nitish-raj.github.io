@@ -1,28 +1,48 @@
 ---
-listing: 
-    - id: blog-posts
-      contents: blogs/posts
-      sort: 
-        - "date desc"
-        - "title desc"
-      type: default
-      categories: false
-      feed: true
-page-layout: full
-title-block-banner: true
+title: "Hello! "
+about:
+    template: trestles
+    image: images/personal.jpeg
+    image-shape: round
+    links: 
+        - icon: linkedin
+          text: Linkedin
+          href: https://www.linkedin.com/in/nitish-raj/
+        - icon: github
+          text: Github
+          href: https://github.com/nitish-raj
+        - icon: google
+          text: Kaggle
+          href: https://www.kaggle.com/nitishraj
+        - icon: twitter
+          text: X (Twitter)
+          href: https://twitter.com/home
 comments: false
-search_exclude: true
-image: images/website_index.jpeg
----
-<div style="text-align: center;">
-![](images/website_index.jpeg){width="800px"}
-</div>
-
+page-layout: article
 ---
 
-:::{#blog-posts}
+:::{#hero-heading}
+
+I am from India and currently working as Senior (Data) Analytics Engineer at Amazon in Luxembourg. <br>
+
+While I am working on developing this website, please check out my resume, or if you would like to have a chat, book a 30-minute call.
+
 :::
 
+### Experience
 
-<center><h3>The content is coming soon! </h3>
-</center>
+**Amazon** | Senior Business Intelligence Engineer | August 2018 - Present
+
+**Mu Sigma** | Decision Scientist | July 2015 - July 2018
+
+### Skills
+
+**Programming:** Python, R, SAS <br>
+**Tools**: dbt <br>
+**Visualisation:** Tableau, PowerBI, QuickSight <br>
+**Cloud:** AWS, Docker, GCP, Snowflake <br>
+**Machine Learning:** Scikit-Learn, Pytorch
+
+### Education
+
+**Bachelor of Engineering** | Computer Science | India - 2015
