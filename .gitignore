@@ -23,6 +23,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+renv/
+.R*
+*.lock
 
 # pkgdown site
 docs/
