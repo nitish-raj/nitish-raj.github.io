@@ -1,9 +1,9 @@
 ---
-title: "Hello! "
+title: "Nitish Raj"
 about:
-    template: trestles
+    template: solana
     image: images/personal.jpeg
-    image-shape: round
+    image-shape: rounded
     links: 
         - icon: linkedin
           text: Linkedin
