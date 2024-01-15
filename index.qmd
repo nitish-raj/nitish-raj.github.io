@@ -23,26 +23,14 @@ page-layout: article
 
 :::{#hero-heading}
 
-I am from India and currently working as Senior (Data) Analytics Engineer at Amazon in Luxembourg. <br>
+I am an engineering professional with 8+ years of experience in delivering advanced solutions that drive business growth. I’m skilled in using development tools like Docker, Git, and dbt, and I write code using Python, R, SQL, and PySpark. My work often involves using cloud services, particularly within AWS and GCP.
 
-While I am working on developing this website, please check out my resume, or if you would like to have a chat, book a 30-minute call.
+I use analytics alongside creativity to make sure that business intelligence tools like Tableau, QuickSight, and Power BI provide insights that can be acted upon, not just data.
+
+In my professional journey, I've always been keen to learn more and work well with my team. This has helped me handle complex projects and make a notable difference. I like to connect the technical side of things with the business side, and I take pride in leading and mentoring. I believe in using the latest tools and a curious mind to find the story in the data.
+
+I’m always ready to bring new ideas to life, and I welcome the chance to connect with fellow data professionals and industry leaders as we build the future together.
+
+Feel free check out my resume, or if you would like to have a chat, book a call.
 
 :::
-
-### Experience
-
-**Amazon** | Senior Business Intelligence Engineer | August 2018 - Present
-
-**Mu Sigma** | Decision Scientist | July 2015 - July 2018
-
-### Skills
-
-**Programming:** Python, R, SAS <br>
-**Tools**: dbt <br>
-**Visualisation:** Tableau, PowerBI, QuickSight <br>
-**Cloud:** AWS, Docker, GCP, Snowflake <br>
-**Machine Learning:** Scikit-Learn, Pytorch
-
-### Education
-
-**Bachelor of Engineering** | Computer Science | India - 2015
