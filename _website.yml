@@ -1,5 +1,9 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!playgroundindex.qmd"
+
 
 
 website:
@@ -29,8 +33,6 @@ website:
       - file: bookconsulationcall.qmd
         text: Let's Talk
       
-      
-  
   page-footer:
     border: true
     left: |
