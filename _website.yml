@@ -25,7 +25,7 @@ website:
       - text: Playground
         file: content/playgroundindex.qmd
       - file: bookconsulationcall.qmd
-        text: Book Consulation Call
+        text: Book a Call
     right:
       - href: resume.qmd    
         text: Resume

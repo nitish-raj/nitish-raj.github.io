@@ -3,6 +3,7 @@
 /_site/
 /_extensions/
 /_freeze/
+/README_files/
 
 # Distribution / packaging
 .Python
@@ -23,6 +24,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.DS_Store
 
 # pkgdown site
 docs/
