@@ -3,6 +3,7 @@
 /_site/
 /_extensions/
 /_freeze/
+/README_files/
 
 # Distribution / packaging
 .Python
@@ -26,6 +27,7 @@ MANIFEST
 renv/
 .R*
 *.lock
+.DS_Store
 
 # pkgdown site
 docs/
