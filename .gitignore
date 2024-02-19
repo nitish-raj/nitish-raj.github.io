@@ -24,7 +24,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-.DS_Store
+renv/
+.R*
+*.lock
 
 # pkgdown site
 docs/

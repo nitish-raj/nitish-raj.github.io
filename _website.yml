@@ -1,9 +1,13 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!playgroundindex.qmd"
+
 
 
 website:
-  title: "Nitish Raj"
+  title: "Home"
   site-url: https://www.rajnitish.com
   
   description: "Nitish's personal website"
@@ -20,21 +24,23 @@ website:
     #pinned: true
     background: white
     left:
-      - text: Engineered Insights Blog
-        href: https://engineeredinsights.substack.com?utm_source=navbar&utm_medium=web&r=2aspew
-      - text: Playground
-        file: content/playgroundindex.qmd
-      - file: bookconsulationcall.qmd
-        text: Book a Call
-    right:
+      # - text: Engineered Insights Blog
+      #  href: https://engineeredinsights.substack.com?utm_source=navbar&utm_medium=web&r=2aspew
+      # - text: Playground
+      #  file: content/playgroundindex.qmd
       - href: resume.qmd    
-        text: Resume
-  
+        text: My Resume
+      - file: bookconsulationcall.qmd
+        text: Let's Talk
+      
   page-footer:
     border: true
     left: |
-        Copyright © 2023, Nitish Raj <br>
+        Copyright © 2024, Nitish Raj <br>
         This page is built using [Quarto](https://quarto.org)
+
+
+      # Opinions are my own and do not represent my employer
     
     right:
       - text: Source at Github

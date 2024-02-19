@@ -1,7 +1,7 @@
 ---
 engine: knitr
 cv:
-    pdf: "data/Nitish_Raj_SrDE.pdf"
+    pdf: "data/Nitish_SrEng.pdf"
 ---
 
 ```{css, echo=FALSE}
