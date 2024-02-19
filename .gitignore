@@ -27,6 +27,7 @@ MANIFEST
 renv/
 .R*
 *.lock
+.DS_Store
 
 # pkgdown site
 docs/
