@@ -35,7 +35,7 @@ RUN wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 # Switch back to gitpod user
 USER gitpod
 WORKDIR /workspace/nitish-raj.github.io
-COPY renv.lock renv.lock
-ENV RENV_PATHS_LIBRARY renv/library
-RUN R -e "renv::restore()"
-RUN R -e "renv::repair()"
+#COPY renv.lock renv.lock
+#ENV RENV_PATHS_LIBRARY renv/library
+#RUN R -e "renv::restore()"
+#RUN R -e "renv::repair()"
