@@ -30,7 +30,7 @@ website:
       #  file: content/playgroundindex.qmd
       - href: resume.qmd    
         text: My Resume
-      - file: bookconsulationcall.qmd
+      - file: bookacall.qmd
         text: Let's Talk
       
   page-footer:
