@@ -81,8 +81,8 @@ library(tibble)
 library(flextable)
 # setwd('/workspace/nitish-raj.github.io')
 # Load data
-source("../script/exp_pro.R")
-source("../script/exp_school.R")
+source("script/exp_pro.R")
+source("script/exp_school.R")
 
 ```
 
