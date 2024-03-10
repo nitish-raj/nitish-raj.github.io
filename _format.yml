@@ -5,12 +5,15 @@ format:
         - flatly
       # dark: darkly
     css: styles.css
-    toc: false
+    toc: true
     smooth-scroll: true
+    embed-resources: true
+    code-fold: false
+    toc-location: left
     link-external-icon: true
     link-external-newwindow: true
     link-external-filter: '^(?:http:|https:)\/\/www\.rajnitish\.com\/**'
-    citations-hover: true
+    # citations-hover: true
     footnotes-hover: true
     # include-in-header: meta.html
     code-link: true

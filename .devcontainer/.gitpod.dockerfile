@@ -2,7 +2,7 @@ FROM gitpod/workspace-full:latest
 
 # Install postgres
 USER root
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     pandoc \
     pandoc-citeproc \
     curl \
@@ -11,8 +11,7 @@ RUN apt-get update && apt-get install -y \
     gnupg \
     apt-transport-https \
     ca-certificates \
-    --no-install-recommends software-properties-common \
-    chromium-browser
+    software-properties-common
 
 # Install Quarto
 ENV QUARTO_VERSION="1.4.550"
@@ -30,12 +29,17 @@ RUN wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc |
     R -e "install.packages(c('renv','knitr','rmarkdown'), repos = c(CRAN = 'https://cloud.r-project.org'))"
 
 #Install TinyTex
-RUN wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
+# RUN wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 
 # Switch back to gitpod user
 USER gitpod
+
 WORKDIR /workspace/nitish-raj.github.io
-COPY renv.lock renv.lock
-ENV RENV_PATHS_LIBRARY renv/library
-RUN R -e "renv::restore()"
-RUN R -e "renv::repair()"
+RUN quarto install chromium --no-prompt
+RUN quarto install tinytex --no-prompt
+RUN python3 -m pip install jupyter
+
+#COPY renv.lock renv.lock
+#ENV RENV_PATHS_LIBRARY renv/library
+#RUN R -e "renv::restore()"
+#RUN R -e "renv::repair()"

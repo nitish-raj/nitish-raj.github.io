@@ -4,8 +4,6 @@ project:
     - "*.qmd"
     - "!playgroundindex.qmd"
 
-
-
 website:
   title: "Home"
   site-url: https://www.rajnitish.com
@@ -30,7 +28,7 @@ website:
       #  file: content/playgroundindex.qmd
       - href: resume.qmd    
         text: My Resume
-      - file: bookconsulationcall.qmd
+      - file: bookacall.qmd
         text: Let's Talk
       
   page-footer:
