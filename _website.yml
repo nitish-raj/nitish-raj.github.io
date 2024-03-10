@@ -1,8 +1,9 @@
 project:
   type: website
   render:
-    - "*.qmd"
+    - "pages/*.qmd"
     - "!playgroundindex.qmd"
+    - "!testresume.qmd"
 
 
 
@@ -28,9 +29,9 @@ website:
       #  href: https://engineeredinsights.substack.com?utm_source=navbar&utm_medium=web&r=2aspew
       # - text: Playground
       #  file: content/playgroundindex.qmd
-      - href: resume.qmd    
+      - href: pages/resume.qmd    
         text: My Resume
-      - file: bookacall.qmd
+      - file: pages/bookacall.qmd
         text: Let's Talk
       
   page-footer:
@@ -47,7 +48,7 @@ website:
         href: https://github.com/nitish-raj/nitish-raj.github.io
       # - icon: rss
       #   href: index.xml
-      - href: privacy.qmd
+      - href: pages/privacy.qmd
         text: Privacy Policy
     background: light
   #reader-mode: true
