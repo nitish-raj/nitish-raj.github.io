@@ -3,17 +3,17 @@ format:
     theme:
       light: 
         - flatly
-      # dark: darkly
-    css: styles.css
+      dark: darkly
+    # css: styles.css
     toc: true
-    smooth-scroll: true
-    embed-resources: true
-    code-fold: false
     toc-location: left
+    smooth-scroll: true
+    embed-resources: false
+    code-fold: false
     link-external-icon: true
     link-external-newwindow: true
     link-external-filter: '^(?:http:|https:)\/\/www\.rajnitish\.com\/**'
-    # citations-hover: true
+    citations-hover: true
     footnotes-hover: true
     # include-in-header: meta.html
     code-link: true
