@@ -2,7 +2,7 @@
 title: "Nitish Raj"
 about:
     template: solana
-    image: images/personal.jpeg
+    image: images/personal_treebg-PhotoRoom.png
     image-shape: rounded
     links: 
         - icon: linkedin
@@ -17,6 +17,9 @@ about:
         - icon: twitter
           text: X (Twitter)
           href: https://twitter.com/home
+        - icon: medium
+          text: Medium
+          href: https://medium.com/@rajnitish
 comments: false
 page-layout: article
 ---
