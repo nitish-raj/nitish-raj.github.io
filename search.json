@@ -1,10 +1,31 @@
 [
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Home",
-    "section": "",
-    "text": "Download current Resume"
+    "objectID": "resume.html#summary",
+    "href": "resume.html#summary",
+    "title": "Nitish Raj",
+    "section": "Summary",
+    "text": "Summary\n\n8+ years’ experience in problem solving with Python, SQL, AWS, and statistics. Lead a 3-member team for setting up analytics frameworks, data modeling, and developing KPIs for strategic business decisions.\nImproved data (ETL) pipeline efficiencies by utilizing Spark systems and RDBMS-based platforms, optimized algorithms to improve work efficiency and standard error by &gt;20% and saved the equivalent of 3+ full-time resources.\nSkilled in data visualization, dive deep analysis, and statistical modeling. Achievements include recovering $7M+ in revenue and boosting customer retention by &gt;10% by developing ML-optimized marketing campaigns.\nProficient in handling large volumes of data and complex processing requirements. Knowledge of distributed computing systems, including Hadoop and Spark, as well as producer-subscriber event processing systems."
+  },
+  {
+    "objectID": "resume.html#work-experience",
+    "href": "resume.html#work-experience",
+    "title": "Nitish Raj",
+    "section": "Work Experience",
+    "text": "Work Experience\n\n\n\n\n\n\n\nAmazon\n08/2018 – present\n\n\nSenior Business Intelligence Engineer\nLuxembourg\n\n\n\n- Hands-on experience with engineering principles and best practices for data modelling, test-driven development, and documentation. Implemented CI/CD using AWS resources and internal tools resembling dbt, GitLab, and GitHub Actions.\n- Developed PySpark ETL for a REST API, which enabled a system to monitor KPIs. This resulted in a feedback loop that reduced critical escalations by &gt;60%.\n- Led end-to-end data modeling for OLTP and OLAP systems for WebApp based on Python (Django) and AWS (Lambda, Glue, Redshift), used by 300 FTEs globally (5 countries) that improved throughput by &gt;50%.\n- Collaborated with 6+ teams to establish 40+ KPIs. Developed data pipelines (using Spark and Redshift), reducing reporting delays from 10 days to just 1. Saved $7M+ in 6 months by proactively tracking and addressing false negatives.\n- Developed ML algorithms (in AWS Sagemaker) to optimize the product classification, improving accuracy by &gt;15%. Implemented the ETL process using Amazon’s internal Spark-based tool and Data Lake\n- Optimised sampling algorithm that reduced standard error by 20%, conserving an equivalent of 3+ FTEs and improved error identification rate from 5% to 10%.\n- Established core KPIs to drive enhancements and collaborated with cross-functional teams to conduct in-depth analyses for data deviations, aiding in agile planning for future operations.\n- Contributed to team development through 100+ technical interviews, providing professional mentorship and leading team of 3 BI engineers/ analysts.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMu Sigma Business Solutions Pvt Ltd\n07/2015 – 07/2018\n\n\nDecision Scientist (Consultant)\nBangalore, India\n\n\n\n- Engineered machine learning models for precision-targeted marketing campaigns, leveraging the Net Promoter Score (NPS) and customer behavior data, resulting in an impressive &gt;10% improvement in customer retention rates.\n- Promoted a data-led strategy for multi-channel attribution, identifying high-yielding customer journey channels and optimizing spend, resulting in an average 8% reduction in customer acquisition costs.\n- Established critical KPIs for comprehensive pre- and post-value-add analysis and implemented A/B testing for credit card offers, enhancing operational efficiency through automated reporting in Tableau.\n- Executed time-series analysis to classify transactions and isolate anomalies, providing decisive insights through Tableau visualizations.\n- Designed an innovative data architecture for tracking European market spending and transaction metrics, successfully navigating the complexities of unstructured and multilingual data using Qlik and SQL."
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Nitish Raj",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\nSiddaganga Institute of Technology\n09/2011 – 05/2015\n\n\nBachelors of Engineering in Computer Science\nKarnataka, India"
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Nitish Raj",
+    "section": "Skills",
+    "text": "Skills\n\n\n\n\n\n\nProgramming\nPython, R, SQL, PySpark, SAS\n\n\n\nTools\nDocker, Git, dbt, SAS Miner, Terraform\n\n\nCloud\nAWS (Redshift, Lambda, EC2, Sagemaker, RDS, Glue, Elastic Beanstalk, SNS, CloudWatch, DynamoDB, Route 53, CDK), GCP (BigQuery, Compute Engine, Cloud Storage), Databricks, Snowflake\n\n\nMachine Learning\nScikit Learn, Pytorch\n\n\nBusiness Intelligence\nTableau, QuickSight, Qlik, Metabase, Looker, Power BI\n\n\nLanguages\nEnglish (Fluent) , French (Basic – A1)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n     Download Resume"
   },
   {
     "objectID": "index.html",
