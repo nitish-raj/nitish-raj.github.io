@@ -1,4 +1,6 @@
 ---
+title: ""
+description: "Schedule a call with to discuss collaboration opportunities, projects, or professional advice."
 page-layout: full
 title-block-banner: true
 comments: false

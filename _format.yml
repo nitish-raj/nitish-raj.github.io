@@ -3,7 +3,6 @@ format:
     theme:
       light: 
         - flatly
-      # dark: darkly
     # css: styles.css
     toc: true
     toc-location: left
@@ -15,5 +14,5 @@ format:
     link-external-filter: '^(?:http:|https:)\/\/www\.rajnitish\.com\/**'
     citations-hover: true
     footnotes-hover: true
-    # include-in-header: meta.html
+    # include-in-header:
     code-link: true

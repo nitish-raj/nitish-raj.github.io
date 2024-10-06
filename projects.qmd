@@ -1,0 +1,12 @@
+---
+title: "Hands on Projects"
+listing: 
+   contents: posts
+   type: default
+   categories: true
+   feed: true
+page-layout: full
+title-block-banner: false
+search_exclude: false
+comments: false
+---

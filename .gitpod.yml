@@ -1,3 +1,0 @@
-# Image of workspace. Learn more: https://www.gitpod.io/docs/configure/workspaces/workspace-image
-image:
-  file: .devcontainer/.gitpod.dockerfile

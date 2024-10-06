@@ -16,10 +16,7 @@ about:
           href: https://www.kaggle.com/nitishraj
         - icon: twitter
           text: X (Twitter)
-          href: https://twitter.com/home
-        - icon: medium
-          text: Medium
-          href: https://medium.com/@rajnitish
+          href: https://twitter.com/thenitishraj
 comments: false
 page-layout: article
 ---
@@ -34,6 +31,6 @@ In my professional journey, I've always been keen to learn more and work well wi
 
 I’m always ready to bring new ideas to life, and I welcome the chance to connect with fellow data professionals and industry leaders as we build the future together.
 
-Feel free check out my resume, or if you would like to have a chat, book a call.
+If you like to collaborate or need my help, [Lets' Talk](letstalk.qmd).
 
 :::

@@ -2,51 +2,36 @@ project:
   type: website
   render:
     - "*.qmd"
-    - "!playgroundindex.qmd"
 
 website:
   title: "Home"
-  site-url: https://www.rajnitish.com
+  site-url: "https://www.rajnitish.com"
   
   description: "Nitish's personal website"
   favicon: images/blogging.png # Blog icons created by Freepik - Flaticon
   #image: images/page_landing.jpeg
   twitter-card:
     site: "@thenitishraj"
-  # search: 
-  #     location: navbar
-  #     type: overlay
-  #     copy-button: true
   navbar:
     logo: images/blogging.png
     #pinned: true
     background: white
     left:
       - text: Blogs
-        href: https://rajnitish.medium.com/
-      # - text: Playground
-      #  file: content/playgroundindex.qmd
-      - href: resume.qmd    
-        text: My Resume
+        href: https://medium.rajnitish.com
+      - text: Playground
+        file: projects.qmd
       - file: letstalk.qmd
         text: Let's Talk
       
   page-footer:
     border: true
     left: |
-        Copyright © 2024, Nitish Raj <br>
+        Copyright © {{< now year >}}, Nitish Raj <br>
         This page is built using [Quarto](https://quarto.org)
-
-
-      # Opinions are my own and do not represent my employer
-    
     right:
-      - text: Source at Github
-        href: https://github.com/nitish-raj/nitish-raj.github.io
-      # - icon: rss
-      #   href: index.xml
-      - href: privacy.qmd
-        text: Privacy Policy
+      - href: privacy.qmd 
+        text: Privacy Policy          
     background: light
   #reader-mode: true
   

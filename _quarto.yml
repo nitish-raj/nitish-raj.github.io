@@ -11,4 +11,7 @@ metadata-files:
 execute:
   freeze: auto
 
+filters:
+  - auto-dark
+
 # commentable: true
