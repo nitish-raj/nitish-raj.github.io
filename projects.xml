@@ -6,10 +6,10 @@
       version="2.0">
 <channel>
 <title>Home</title>
-<link>https://www.rajnitish.com/content/projects.html</link>
-<atom:link href="https://www.rajnitish.com/content/projects.xml" rel="self" type="application/rss+xml"/>
+<link>https://www.rajnitish.com/projects.html</link>
+<atom:link href="https://www.rajnitish.com/projects.xml" rel="self" type="application/rss+xml"/>
 <description>Nitish&#39;s personal website</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Sun, 06 Oct 2024 19:30:06 GMT</lastBuildDate>
+<lastBuildDate>Sun, 06 Oct 2024 20:29:34 GMT</lastBuildDate>
 </channel>
 </rss>
