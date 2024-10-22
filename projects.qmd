@@ -1,12 +1,12 @@
 ---
-title: "Hands on Projects"
+title: "Playground for Hands on Projects"
 listing: 
-   contents: posts
+   contents: "posts"
    type: default
    categories: true
    feed: true
 page-layout: full
 title-block-banner: false
 search_exclude: false
-comments: false
+# comments: false
 ---

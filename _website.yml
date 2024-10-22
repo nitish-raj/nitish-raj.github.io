@@ -8,12 +8,12 @@ website:
   site-url: "https://www.rajnitish.com"
   
   description: "Nitish's personal website"
-  favicon: images/blogging.png # Blog icons created by Freepik - Flaticon
+  favicon: images/NR_logo.png
   #image: images/page_landing.jpeg
   twitter-card:
     site: "@thenitishraj"
   navbar:
-    logo: images/blogging.png
+    logo: images/NR_logo.png
     #pinned: true
     background: white
     left:
@@ -45,15 +45,15 @@ website:
   cookie-consent: true
 
 
-  # comments: 
-  #   giscus: 
-  #     repo : nitish-raj/nitish-raj.github.io
-  #     repo-id : R_kgDOIsXIEQ
-  #     category: Giscus Comments
-  #     category-id : DIC_kwDOIsXIEc4CTULI
-  #     mapping: url
-  #     input-position: top
-  #     loading: lazy
-  #     theme: "transparent_dark"
+  comments: 
+    giscus: 
+      repo: nitish-raj/nitish-raj.github.io
+      repo-id: R_kgDOIsXIEQ
+      category: Giscus Comments
+      category-id: DIC_kwDOIsXIEc4CTULI
+      mapping: url
+      input-position: top
+      loading: lazy
+      theme: "transparent_dark"
 
 editor: visual
