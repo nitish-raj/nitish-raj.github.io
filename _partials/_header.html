@@ -1,0 +1,67 @@
+<header class="header">
+  <div class="container">
+    <div class="header-content animate-fadeIn">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1 class="display-4 fw-bold">Nitish Raj</h1>
+          <p class="lead">Data Engineer & MLOps Professional</p>
+          <p class="header-tagline">Transforming data into actionable insights</p>
+          <div class="mt-4">
+            <a href="letstalk.qmd" class="btn btn-primary me-2"><i class="fas fa-comments"></i> Let's Talk</a>
+            <a href="projects.qmd" class="btn btn-outline-secondary"><i class="fas fa-code"></i> View Projects</a>
+          </div>
+        </div>
+        <div class="col-md-6 d-none d-md-block">
+          <div class="header-image-container">
+            <img src="images/personal_treebg-PhotoRoom.png" alt="Nitish Raj" class="img-fluid rounded-circle header-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<style>
+.header {
+  padding: 5rem 0 3rem;
+  background: linear-gradient(135deg, var(--light-bg) 0%, #fff 100%);
+  margin-bottom: 2rem;
+}
+
+.header-content {
+  position: relative;
+}
+
+.header-tagline {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-top: 0.5rem;
+}
+
+.header-image-container {
+  position: relative;
+  text-align: center;
+}
+
+.header-image {
+  max-width: 80%;
+  box-shadow: var(--box-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 3rem 0 2rem;
+    text-align: center;
+  }
+}
+
+.quarto-dark .header {
+  background: linear-gradient(135deg, var(--dark-bg) 0%, #2c3e50 100%);
+}
+</style>

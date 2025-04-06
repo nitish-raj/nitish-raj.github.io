@@ -1,12 +1,31 @@
 ---
-title: "Playground for Hands on Projects"
-listing: 
-   contents: "posts"
-   type: default
-   categories: true
-   feed: true
+title: "Projects & Playground"
+subtitle: "Exploring data engineering, MLOps, and analytics through hands-on projects"
+description: "A showcase of my technical projects and experiments in data engineering, machine learning, and analytics."
 page-layout: full
-title-block-banner: false
+title-block-banner: true
+title-block-banner-color: "primary"
 search_exclude: false
-# comments: false
+comments: false
 ---
+
+::: {.callout-tip appearance="default"}
+### Project Categories
+- **Data Engineering**: ETL pipelines, data warehousing, and data processing frameworks
+- **Machine Learning**: Model development, evaluation, and deployment
+- **Analytics**: Data visualization, business intelligence, and insights generation
+- **Cloud Infrastructure**: AWS and GCP solutions for data and ML workloads
+:::
+
+### Coming Soon!
+
+I'm currently working on adding my projects to this section. Check back soon to see my latest work!
+
+In the meantime, feel free to [reach out](letstalk.qmd) if you'd like to collaborate or discuss any data engineering or MLOps topics.
+
+::: {.callout-note appearance="default"}
+### Sample Projects (Coming Soon)
+- **Data Pipeline Automation**: A framework for automating ETL processes using Apache Airflow
+- **ML Model Deployment**: End-to-end MLOps pipeline for deploying machine learning models
+- **Real-time Analytics Dashboard**: Interactive dashboard for monitoring business metrics
+:::

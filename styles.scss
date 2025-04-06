@@ -1,0 +1,249 @@
+/*-- scss:defaults --*/
+
+// Light mode colors
+$primary: #2c3e50;
+$secondary: #3498db;
+$success: #2ecc71;
+$info: #3498db;
+$warning: #f39c12;
+$danger: #e74c3c;
+$light: #f8f9fa;
+$dark: #343a40;
+
+// Dark mode colors
+$primary-dark: #3498db;
+$secondary-dark: #2c3e50;
+$body-bg-dark: #1a1a1a;
+$body-color-dark: #f8f9fa;
+
+$font-family-sans-serif: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+$border-radius: 0.5rem;
+$btn-border-radius: 0.25rem;
+
+$headings-font-weight: 700;
+$headings-color: $primary;
+
+$link-color: $secondary;
+$link-hover-color: darken($link-color, 15%);
+
+$navbar-bg: $light;
+$navbar-fg: $primary;
+$navbar-hl: $secondary;
+
+$footer-bg: $light;
+$footer-fg: $primary;
+
+/*-- scss:rules --*/
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  color: $primary;
+}
+
+h2 {
+  border-bottom: 2px solid $secondary;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+// Links
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+// Navbar
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+}
+
+.navbar-brand img {
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover img {
+  transform: scale(1.05);
+}
+
+// Buttons
+.btn {
+  border-radius: $btn-border-radius;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+// Cards
+.card {
+  border-radius: $border-radius;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+// Custom classes
+.skill-badge {
+  display: inline-block;
+  background-color: $light;
+  color: $primary;
+  padding: 0.35rem 0.75rem;
+  border-radius: 50px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+  background-color: $secondary;
+  color: white;
+  transform: translateY(-2px);
+}
+
+// Animations
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  .navbar {
+    padding: 0.75rem 1rem;
+  }
+}
+
+// Table of contents
+#TOC {
+  border-left: 3px solid $secondary;
+  padding-left: 1rem;
+}
+
+#TOC a {
+  color: #666;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+  display: block;
+  padding: 0.25rem 0;
+}
+
+#TOC a:hover {
+  color: $secondary;
+  padding-left: 0.25rem;
+}
+
+// Code blocks
+pre {
+  border-radius: $border-radius;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+// Blockquotes
+blockquote {
+  border-left: 4px solid $secondary;
+  padding-left: 1rem;
+  color: #666;
+  font-style: italic;
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: $border-radius;
+}
+
+// Footer
+.footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+}
+
+// Dark mode styles
+html.dark {
+  // Typography
+  h1, h2, h3, h4, h5, h6 {
+    color: $primary-dark;
+  }
+  
+  h2 {
+    border-bottom-color: $primary-dark;
+  }
+  
+  // Links
+  a {
+    color: $primary-dark;
+  }
+  
+  a:hover {
+    color: lighten($primary-dark, 15%);
+  }
+  
+  // Custom classes
+  .skill-badge {
+    background-color: $secondary-dark;
+    color: $light;
+  }
+  
+  .skill-badge:hover {
+    background-color: $primary-dark;
+  }
+  
+  // Table of contents
+  #TOC {
+    border-left-color: $primary-dark;
+  }
+  
+  #TOC a:hover {
+    color: $primary-dark;
+  }
+  
+  // Blockquotes
+  blockquote {
+    border-left-color: $primary-dark;
+    color: $light;
+  }
+}
+
+// Dark mode toggle button
+.quarto-color-scheme-toggle {
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.quarto-color-scheme-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

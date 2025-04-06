@@ -1,8 +1,18 @@
 ---
-title: 👀
-subtitle: I've looked everywhere and the page you're looking for doesn't exist (yet?). 🙍
+title: "Page Not Found"
+subtitle: "Oops! The page you're looking for doesn't exist."
+page-layout: full
 toc: false
 comments: false
 ---
 
-_Alternatively_, Head [home](index.qmd) ?
+::: {.text-center .py-5}
+## 404
+
+I've looked everywhere, but the page you're looking for doesn't exist (yet?).
+
+<div class="mt-4">
+  <a href="index.qmd" class="btn btn-primary me-2">Go Home</a>
+  <a href="projects.qmd" class="btn btn-outline-secondary">Explore Projects</a>
+</div>
+:::

@@ -1,13 +1,28 @@
 ---
-title: ""
-description: "Schedule a call with to discuss collaboration opportunities, projects, or professional advice."
+title: "Let's Talk"
+subtitle: "Schedule a call or send me a message"
+description: "Connect with me to discuss collaboration opportunities, projects, or professional advice."
 page-layout: full
 title-block-banner: true
+title-block-banner-color: "primary"
 comments: false
 search_exclude: true
 ---
+
+## Schedule a Call
+
+I'm always open to connecting with fellow professionals, discussing potential collaborations, or providing advice on data engineering and MLOps projects.
+
+::: {.callout-note appearance="default"}
+### Available for:
+- **Technical discussions** about data engineering and MLOps
+- **Project collaborations** in analytics and machine learning
+- **Mentoring** and professional advice
+- **Speaking opportunities** at tech events and conferences
+:::
+
 <!-- Cal inline embed code begins -->
-<div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline"></div>
+<div style="width:104%;height:520px;overflow:hidden;margin-left:-2%;" id="my-cal-inline" class="mt-4 mb-5"></div>
 <script type="text/javascript">
   (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
 Cal("init", "15min", {origin:"https://cal.com"});
@@ -18,6 +33,28 @@ Cal("init", "15min", {origin:"https://cal.com"});
 	layout: "month_view"
   });
   
-  Cal.ns["15min"]("ui", {"styles":{"branding":{"brandColor":"#000000"}},"hideEventTypeDetails":false,"layout":"month_view"});
-  </script>
-  <!-- Cal inline embed code ends -->
+  Cal.ns["15min"]("ui", {"styles":{"branding":{"brandColor":"#3498db"}},"hideEventTypeDetails":false,"layout":"month_view"});
+</script>
+<!-- Cal inline embed code ends -->
+
+## Get in Touch
+
+If you prefer to send me a message, you can use the contact form below or reach out through social media.
+
+### Connect on Social Media
+
+<div class="d-flex justify-content-center gap-4 mb-4">
+  <a href="https://www.linkedin.com/in/nitish-raj/" target="_blank" class="btn btn-primary btn-lg">
+    <i class="fab fa-linkedin me-2"></i>LinkedIn
+  </a>
+  <a href="https://github.com/nitish-raj" target="_blank" class="btn btn-dark btn-lg">
+    <i class="fab fa-github me-2"></i>GitHub
+  </a>
+  <a href="https://twitter.com/thenitishraj" target="_blank" class="btn btn-info btn-lg">
+    <i class="fab fa-twitter me-2"></i>Twitter
+  </a>
+</div>
+
+### Contact Form
+
+<iframe src="https://forms.office.com/r/tmbsveXPTm?embed=true" width="100%" height="600px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

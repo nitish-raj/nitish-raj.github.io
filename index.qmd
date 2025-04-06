@@ -1,36 +1,78 @@
 ---
 title: "Nitish Raj"
+subtitle: "Data Engineer & MLOps Professional"
+image: images/personal_treebg-PhotoRoom.png
 about:
-    template: solana
-    image: images/personal_treebg-PhotoRoom.png
-    image-shape: rounded
-    links: 
-        - icon: linkedin
-          text: Linkedin
-          href: https://www.linkedin.com/in/nitish-raj/
-        - icon: github
-          text: Github
-          href: https://github.com/nitish-raj
-        - icon: google
-          text: Kaggle
-          href: https://www.kaggle.com/nitishraj
-        - icon: twitter
-          text: X (Twitter)
-          href: https://twitter.com/thenitishraj
+  template: trestles
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/nitish-raj/
+    - icon: github
+      text: GitHub
+      href: https://github.com/nitish-raj
+    - icon: google
+      text: Kaggle
+      href: https://www.kaggle.com/nitishraj
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/thenitishraj
+page-layout: full
 comments: false
-page-layout: article
 ---
 
-:::{#hero-heading}
+## About Me
 
-I am an engineering professional with 8+ years of experience in delivering advanced solutions that drive business growth. I’m skilled in using development tools like Docker, Git, and dbt, and I write code using Python, R, SQL, and PySpark. My work often involves using cloud services, particularly within AWS and GCP.
+I am an engineering professional with 8+ years of experience in delivering advanced solutions that drive business growth. I specialize in data engineering and MLOps, creating robust data pipelines and machine learning infrastructure that transform raw data into actionable insights.
 
-I use analytics alongside creativity to make sure that business intelligence tools like Tableau, QuickSight, and Power BI provide insights that can be acted upon, not just data.
+::: {.callout-note appearance="default"}
+### My Expertise
+- **Data Engineering**: Building scalable data pipelines and ETL processes
+- **MLOps**: Implementing CI/CD for machine learning models
+- **Cloud Services**: AWS and GCP architecture and implementation
+- **Analytics**: Transforming data into actionable business intelligence
+:::
 
-In my professional journey, I've always been keen to learn more and work well with my team. This has helped me handle complex projects and make a notable difference. I like to connect the technical side of things with the business side, and I take pride in leading and mentoring. I believe in using the latest tools and a curious mind to find the story in the data.
+In my professional journey, I've always been keen to learn more and work well with my team. This has helped me handle complex projects and make a notable difference. I like to connect the technical side of things with the business side, and I take pride in leading and mentoring.
 
-I’m always ready to bring new ideas to life, and I welcome the chance to connect with fellow data professionals and industry leaders as we build the future together.
+I'm always ready to bring new ideas to life, and I welcome the chance to connect with fellow data professionals and industry leaders as we build the future together.
 
-If you like to collaborate or need my help, [Lets' Talk](letstalk.qmd).
+## Skills
 
+::: {.grid}
+::: {.g-col-12}
+<div class="skill-section">
+<span class="skill-badge">Python</span>
+<span class="skill-badge">SQL</span>
+<span class="skill-badge">R</span>
+<span class="skill-badge">PySpark</span>
+<span class="skill-badge">Docker</span>
+<span class="skill-badge">Git</span>
+<span class="skill-badge">AWS</span>
+<span class="skill-badge">GCP</span>
+<span class="skill-badge">Tableau</span>
+<span class="skill-badge">Power BI</span>
+<span class="skill-badge">dbt</span>
+<span class="skill-badge">Machine Learning</span>
+</div>
+:::
+:::
+
+## Experience
+
+### Senior Data Engineer (2021 - Present)
+
+Leading data engineering initiatives, designing and implementing data pipelines, and collaborating with cross-functional teams to deliver data-driven solutions.
+
+### Data Engineer (2018 - 2021)
+
+Developed ETL processes, maintained data warehouses, and created data visualizations to support business decision-making.
+
+### Business Intelligence Analyst (2015 - 2018)
+
+Analyzed business data to identify trends, created reports and dashboards, and provided insights to improve business operations.
+
+::: {.text-center .mt-5}
+[Let's Talk](letstalk.qmd){.btn .btn-primary .btn-lg}
 :::

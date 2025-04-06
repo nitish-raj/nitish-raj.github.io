@@ -4,36 +4,53 @@ project:
     - "*.qmd"
 
 website:
-  title: "Home"
+  title: "Nitish Raj"
   site-url: "https://www.rajnitish.com"
   
-  description: "Nitish's personal website"
+  description: "Nitish Raj - Data Engineer & MLOps Professional"
   favicon: images/NR_logo.png
-  #image: images/page_landing.jpeg
+  image: images/personal_treebg-PhotoRoom.png
   twitter-card:
     site: "@thenitishraj"
   navbar:
     logo: images/NR_logo.png
-    #pinned: true
-    background: white
+    pinned: true
+    background: light
+    search: true
+    collapse-below: lg
     left:
-      - text: Blogs
+      - text: "About"
+        file: index.qmd
+      - text: "Blogs"
         href: https://medium.rajnitish.com
-      - text: Playground
+      - text: "Projects"
         file: projects.qmd
-      - file: letstalk.qmd
-        text: Let's Talk
-      
+      - text: "Let's Talk"
+        file: letstalk.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/nitish-raj/
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/nitish-raj
+        aria-label: GitHub
+      - icon: twitter
+        href: https://twitter.com/thenitishraj
+        aria-label: Twitter
+  
   page-footer:
     border: true
-    left: |
-        Copyright © {{< now year >}}, Nitish Raj <br>
-        This page is built using [Quarto](https://quarto.org)
-    right:
-      - href: privacy.qmd 
-        text: Privacy Policy          
     background: light
-  #reader-mode: true
+    left: |
+      Copyright © {{< now year >}}, Nitish Raj <br>
+      Built with [Quarto](https://quarto.org)
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/nitish-raj/
+      - icon: github
+        href: https://github.com/nitish-raj
+      - icon: twitter
+        href: https://twitter.com/thenitishraj
   
   repo-url: https://github.com/nitish-raj/nitish-raj.github.io
   repo-actions: [issue]
@@ -44,7 +61,7 @@ website:
   open-graph: true
   cookie-consent: true
 
-
+  # Comments configuration - will be enabled only on pages that explicitly set comments: true
   comments: 
     giscus: 
       repo: nitish-raj/nitish-raj.github.io
@@ -54,6 +71,6 @@ website:
       mapping: url
       input-position: top
       loading: lazy
-      theme: "transparent_dark"
+      theme: "light"
 
 editor: visual

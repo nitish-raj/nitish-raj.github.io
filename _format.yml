@@ -1,9 +1,11 @@
 format:
   html:
     theme:
-      light: 
-        - flatly
-    # css: styles.css
+      light: flatly
+      dark: darkly
+    css: 
+      - styles.scss
+      - dark-mode.css
     toc: true
     toc-location: left
     smooth-scroll: true
@@ -14,5 +16,14 @@ format:
     link-external-filter: '^(?:http:|https:)\/\/www\.rajnitish\.com\/**'
     citations-hover: true
     footnotes-hover: true
-    # include-in-header:
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     code-link: true
+    include-after-body:
+      text: |
+        <script src="script/script.js"></script>
+    anchor-sections: true
+    fig-cap-location: bottom
+    highlight-style: github

@@ -1,0 +1,371 @@
+/* Scroll to top button styles */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-to-top:hover {
+  transform: translateY(-5px);
+  background-color: #2c3e50;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-to-top i {
+  font-size: 1.2rem;
+}
+
+/* Button styling */
+.btn {
+  font-weight: 600;
+  border-width: 2px;
+  padding: 0.5rem 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #3498db;
+  border-color: #3498db;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.btn-dark {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+  color: white;
+}
+
+.btn-dark:hover {
+  background-color: #1a252f;
+  border-color: #1a252f;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+  border-color: #138496;
+}
+
+.btn-outline-primary {
+  color: #3498db;
+  border-color: #3498db;
+}
+
+.btn-outline-primary:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn-outline-dark {
+  color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+.btn-outline-dark:hover {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.btn-outline-info {
+  color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-outline-info:hover {
+  background-color: #17a2b8;
+  color: white;
+}
+
+/* Base callout styling for both light and dark themes */
+.callout {
+  border: 1px solid;
+  border-left-width: 5px !important;
+  border-radius: 8px !important;
+  padding: 1.25rem !important;
+  margin-bottom: 1.5rem !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05) !important;
+}
+
+.callout-title {
+  font-weight: 700 !important;
+  margin-bottom: 0.75rem !important;
+  font-size: 1.1rem !important;
+}
+
+/* Light theme callout styling */
+body:not(.quarto-dark) .callout {
+  border-color: #e9ecef !important;
+  background-color: #ffffff !important;
+}
+
+body:not(.quarto-dark) .callout-note {
+  border-left-color: #3498db !important;
+}
+
+body:not(.quarto-dark) .callout-tip {
+  border-left-color: #2ecc71 !important;
+}
+
+body:not(.quarto-dark) .callout-title {
+  color: #2c3e50 !important;
+}
+
+body:not(.quarto-dark) .callout-body {
+  color: #2c3e50 !important;
+}
+
+body:not(.quarto-dark) .callout-body strong {
+  color: #2c3e50 !important;
+  font-weight: 700 !important;
+}
+
+/* Giscus comments styling for light theme */
+.giscus-frame {
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+/* Ensure giscus text is readable in light mode */
+.giscus {
+  --color-text-primary: #2c3e50;
+  --color-text-secondary: #4a5568;
+  --color-border-primary: #e2e8f0;
+  --color-border-secondary: #edf2f7;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-accent: #3498db;
+  --color-accent-emphasis: #2c3e50;
+  --color-canvas-default: #ffffff;
+  --color-canvas-subtle: #f8f9fa;
+  --color-fg-default: #2c3e50;
+  --color-fg-muted: #4a5568;
+  --color-fg-subtle: #718096;
+  --color-primer-border-active: #3498db;
+  --color-primer-border-contrast: #2c3e50;
+  --color-primer-shadow-focus: 0 0 0 3px rgba(52, 152, 219, 0.3);
+  --color-btn-text: #2c3e50;
+  --color-btn-bg: #ffffff;
+  --color-btn-border: #e2e8f0;
+  --color-btn-hover-bg: #f8f9fa;
+  --color-btn-hover-border: #cbd5e0;
+  --color-btn-active-bg: #edf2f7;
+  --color-btn-active-border: #cbd5e0;
+  --color-btn-primary-text: #ffffff;
+  --color-btn-primary-bg: #3498db;
+  --color-btn-primary-border: #3498db;
+  --color-btn-primary-hover-bg: #2c3e50;
+  --color-btn-primary-hover-border: #2c3e50;
+  --color-btn-primary-selected-bg: #2c3e50;
+  --color-btn-primary-selected-border: #2c3e50;
+  --color-btn-primary-disabled-text: rgba(255, 255, 255, 0.5);
+  --color-btn-primary-disabled-bg: rgba(52, 152, 219, 0.6);
+  --color-btn-primary-disabled-border: rgba(52, 152, 219, 0.6);
+}
+
+/* Dark mode specific styles */
+html.dark body {
+  background-color: #1a1a1a;
+  color: #f8f9fa;
+}
+
+html.dark .navbar {
+  background-color: #2c3e50 !important;
+}
+
+html.dark .navbar-brand,
+html.dark .nav-link {
+  color: #f8f9fa !important;
+}
+
+html.dark .card {
+  background-color: #2c3e50;
+  color: #f8f9fa;
+}
+
+html.dark .footer {
+  background-color: #2c3e50 !important;
+  color: #f8f9fa;
+}
+
+html.dark .footer a {
+  color: #3498db;
+}
+
+html.dark .btn-outline-secondary {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+html.dark .btn-outline-secondary:hover {
+  background-color: #3498db;
+  color: #f8f9fa;
+}
+
+html.dark .skill-badge {
+  background-color: #2c3e50;
+  color: #f8f9fa;
+  border: 1px solid #3498db;
+}
+
+html.dark .skill-badge:hover {
+  background-color: #3498db;
+}
+
+/* Dark mode callout styling */
+html.dark .callout {
+  border-color: #4a5568 !important;
+  background-color: #2c3e50 !important;
+}
+
+html.dark .callout-note {
+  border-left-color: #3498db !important;
+}
+
+html.dark .callout-tip {
+  border-left-color: #2ecc71 !important;
+}
+
+html.dark .callout-title {
+  color: #f8f9fa !important;
+}
+
+html.dark .callout-body {
+  color: #f8f9fa !important;
+}
+
+html.dark .callout-body strong {
+  color: #3498db !important;
+}
+
+html.dark pre {
+  background-color: #2c3e50 !important;
+  color: #f8f9fa !important;
+}
+
+html.dark code {
+  color: #3498db !important;
+}
+
+html.dark blockquote {
+  border-left-color: #3498db;
+  color: #f8f9fa;
+}
+
+html.dark table {
+  color: #f8f9fa;
+}
+
+html.dark th {
+  background-color: #2c3e50;
+}
+
+html.dark tr:nth-child(even) {
+  background-color: #343a40;
+}
+
+/* Title banner styling for dark mode */
+html.dark .quarto-title-banner {
+  background-color: #2c3e50 !important;
+}
+
+html.dark .quarto-title-banner .quarto-title .title,
+html.dark .quarto-title-banner .quarto-title .subtitle,
+html.dark .quarto-title-banner .quarto-title .description {
+  color: #f8f9fa !important;
+}
+
+html.dark .quarto-title-banner .quarto-title .description {
+  color: #cbd5e0 !important;
+}
+
+/* Style for the built-in Quarto dark mode toggle */
+.quarto-color-scheme-toggle {
+  transition: all 0.3s ease;
+}
+
+.quarto-color-scheme-toggle:hover {
+  transform: translateY(-2px);
+}
+
+/* Dark mode giscus */
+html.dark .giscus {
+  --color-text-primary: #f8f9fa;
+  --color-text-secondary: #cbd5e0;
+  --color-border-primary: #4a5568;
+  --color-border-secondary: #2d3748;
+  --color-bg-primary: #2c3e50;
+  --color-bg-secondary: #1a202c;
+  --color-accent: #3498db;
+  --color-accent-emphasis: #2c3e50;
+  --color-canvas-default: #2c3e50;
+  --color-canvas-subtle: #1a202c;
+  --color-fg-default: #f8f9fa;
+  --color-fg-muted: #cbd5e0;
+  --color-fg-subtle: #a0aec0;
+  --color-primer-border-active: #3498db;
+  --color-primer-border-contrast: #f8f9fa;
+  --color-primer-shadow-focus: 0 0 0 3px rgba(52, 152, 219, 0.3);
+  --color-btn-text: #f8f9fa;
+  --color-btn-bg: #2c3e50;
+  --color-btn-border: #4a5568;
+  --color-btn-hover-bg: #1a202c;
+  --color-btn-hover-border: #2d3748;
+  --color-btn-active-bg: #1a202c;
+  --color-btn-active-border: #2d3748;
+  --color-btn-primary-text: #ffffff;
+  --color-btn-primary-bg: #3498db;
+  --color-btn-primary-border: #3498db;
+  --color-btn-primary-hover-bg: #2980b9;
+  --color-btn-primary-hover-border: #2980b9;
+  --color-btn-primary-selected-bg: #2980b9;
+  --color-btn-primary-selected-border: #2980b9;
+  --color-btn-primary-disabled-text: rgba(255, 255, 255, 0.5);
+  --color-btn-primary-disabled-bg: rgba(52, 152, 219, 0.6);
+  --color-btn-primary-disabled-border: rgba(52, 152, 219, 0.6);
+}
+
+/* Fix for iframe in dark mode */
+iframe {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Cal.com iframe styling */
+#my-cal-inline {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
