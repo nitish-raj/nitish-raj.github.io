@@ -110,12 +110,14 @@ cookieconsent.run({
 <meta property="og:site_name" content="Nitish Raj">
 <meta property="og:image:height" content="800">
 <meta property="og:image:width" content="800">
+<meta property="og:image:alt" content="Nitish Raj">
 <meta name="twitter:title" content="Nitish Raj">
 <meta name="twitter:description" content="Data Engineer &amp; MLOps Professional">
 <meta name="twitter:image" content="https://www.rajnitish.com/images/personal_treebg-PhotoRoom.png">
 <meta name="twitter:site" content="@thenitishraj">
 <meta name="twitter:image-height" content="800">
 <meta name="twitter:image-width" content="800">
+<meta name="twitter:image:alt" content="Nitish Raj">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -202,8 +204,8 @@ cookieconsent.run({
 <!-- main -->
 <div class="quarto-about-trestles column-page-left">
   <div class="about-entity">
-    <img src="images/personal_treebg-PhotoRoom.png" class="about-image
-  round " style="height: 20em; width: 20em;">
+    <img src="images/personal_treebg-PhotoRoom.png" alt="Nitish Raj" class="about-image
+  rectangle " style="width: 15em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Nitish Raj</h1>
@@ -233,6 +235,44 @@ cookieconsent.run({
   </div>
   <div class="about-contents"><main class="content column-page-left" id="quarto-document-content">
 
+<style>
+.custom-skill-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+.custom-skill-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  color: white !important;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.custom-skill-badge:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+}
+/* Profile image styling - more specific selectors */
+.quarto-about-trestles .about-entity .about-image,
+.quarto-about-trestles .about-entity .about-image img,
+.about-image,
+.about-image img,
+div.quarto-about-trestles div.about-entity div.about-image,
+div.quarto-about-trestles div.about-entity div.about-image img {
+  border-radius: 15px !important;  /* Rounded corners */
+  border: none !important;         /* Remove border */
+  padding: 0 !important;           /* Remove padding */
+  overflow: hidden !important;     /* Ensure image stays within rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Add subtle shadow */
+  margin: 0 !important;
+}
+</style>
 <section id="about-me" class="level2">
 <h2 data-anchor-id="about-me">About Me</h2>
 <p>I am an engineering professional with 8+ years of experience in delivering advanced solutions that drive business growth. I specialize in data engineering and MLOps, creating robust data pipelines and machine learning infrastructure that transform raw data into actionable insights.</p>
@@ -261,8 +301,8 @@ My Expertise
 <h2 data-anchor-id="skills">Skills</h2>
 <div class="grid">
 <div class="g-col-12">
-<div class="skill-section">
-<p><span class="skill-badge">Python</span> <span class="skill-badge">SQL</span> <span class="skill-badge">R</span> <span class="skill-badge">PySpark</span> <span class="skill-badge">Docker</span> <span class="skill-badge">Git</span> <span class="skill-badge">AWS</span> <span class="skill-badge">GCP</span> <span class="skill-badge">Tableau</span> <span class="skill-badge">Power BI</span> <span class="skill-badge">dbt</span> <span class="skill-badge">Machine Learning</span></p>
+<div class="custom-skill-section">
+<p><span class="custom-skill-badge">Python</span> <span class="custom-skill-badge">SQL</span> <span class="custom-skill-badge">R</span> <span class="custom-skill-badge">PySpark</span> <span class="custom-skill-badge">Docker</span> <span class="custom-skill-badge">Git</span> <span class="custom-skill-badge">AWS</span> <span class="custom-skill-badge">GCP</span> <span class="custom-skill-badge">Tableau</span> <span class="custom-skill-badge">Power BI</span> <span class="custom-skill-badge">dbt</span> <span class="custom-skill-badge">Machine Learning</span></p>
 </div>
 </div>
 </div>

@@ -102,22 +102,34 @@ a:hover {
 }
 
 // Custom classes
+// Skill section container
+.skill-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+  justify-content: flex-start;
+}
+
 .skill-badge {
   display: inline-block;
-  background-color: $light;
-  color: $primary;
-  padding: 0.35rem 0.75rem;
+  background: linear-gradient(135deg, $secondary 0%, darken($secondary, 15%) 100%);
+  color: white;
+  padding: 0.5rem 1rem;
   border-radius: 50px;
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  border: none;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .skill-badge:hover {
-  background-color: $secondary;
-  color: white;
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, $primary 0%, darken($primary, 10%) 100%);
 }
 
 // Animations
@@ -212,12 +224,16 @@ html.dark {
   
   // Custom classes
   .skill-badge {
-    background-color: $secondary-dark;
-    color: $light;
+    background: linear-gradient(135deg, $primary-dark 0%, darken($primary-dark, 15%) 100%);
+    color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
   }
   
   .skill-badge:hover {
-    background-color: $primary-dark;
+    background: linear-gradient(135deg, lighten($primary-dark, 10%) 0%, $primary-dark 100%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
   }
   
   // Table of contents
@@ -246,4 +262,20 @@ html.dark {
 .quarto-color-scheme-toggle:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+// Profile image styling
+.quarto-about-trestles .about-entity .about-image {
+  border-radius: 15px !important;  // Rounded corners
+  border: none !important;         // Remove border
+  padding: 0 !important;           // Remove padding
+  overflow: hidden !important;     // Ensure image stays within rounded corners
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; // Add subtle shadow
+}
+
+.quarto-about-trestles .about-entity .about-image img {
+  border-radius: 15px !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
