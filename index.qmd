@@ -2,9 +2,11 @@
 title: "Nitish Raj"
 subtitle: "Data Engineer & MLOps Professional"
 image: images/personal_treebg-PhotoRoom.png
+image-alt: "Nitish Raj"
 about:
   template: trestles
-  image-shape: round
+  image-shape: rectangle
+  image-width: 15em
   links:
     - icon: linkedin
       text: LinkedIn
@@ -21,6 +23,49 @@ about:
 page-layout: full
 comments: false
 ---
+
+
+<style>
+.custom-skill-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.custom-skill-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  color: white !important;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.custom-skill-badge:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+}
+
+/* Profile image styling - more specific selectors */
+.quarto-about-trestles .about-entity .about-image,
+.quarto-about-trestles .about-entity .about-image img,
+.about-image,
+.about-image img,
+div.quarto-about-trestles div.about-entity div.about-image,
+div.quarto-about-trestles div.about-entity div.about-image img {
+  border-radius: 15px !important;  /* Rounded corners */
+  border: none !important;         /* Remove border */
+  padding: 0 !important;           /* Remove padding */
+  overflow: hidden !important;     /* Ensure image stays within rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Add subtle shadow */
+  margin: 0 !important;
+}
+</style>
 
 ## About Me
 
@@ -42,19 +87,19 @@ I'm always ready to bring new ideas to life, and I welcome the chance to connect
 
 ::: {.grid}
 ::: {.g-col-12}
-<div class="skill-section">
-<span class="skill-badge">Python</span>
-<span class="skill-badge">SQL</span>
-<span class="skill-badge">R</span>
-<span class="skill-badge">PySpark</span>
-<span class="skill-badge">Docker</span>
-<span class="skill-badge">Git</span>
-<span class="skill-badge">AWS</span>
-<span class="skill-badge">GCP</span>
-<span class="skill-badge">Tableau</span>
-<span class="skill-badge">Power BI</span>
-<span class="skill-badge">dbt</span>
-<span class="skill-badge">Machine Learning</span>
+<div class="custom-skill-section">
+  <span class="custom-skill-badge">Python</span>
+  <span class="custom-skill-badge">SQL</span>
+  <span class="custom-skill-badge">R</span>
+  <span class="custom-skill-badge">PySpark</span>
+  <span class="custom-skill-badge">Docker</span>
+  <span class="custom-skill-badge">Git</span>
+  <span class="custom-skill-badge">AWS</span>
+  <span class="custom-skill-badge">GCP</span>
+  <span class="custom-skill-badge">Tableau</span>
+  <span class="custom-skill-badge">Power BI</span>
+  <span class="custom-skill-badge">dbt</span>
+  <span class="custom-skill-badge">Machine Learning</span>
 </div>
 :::
 :::

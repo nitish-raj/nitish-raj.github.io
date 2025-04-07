@@ -1,5 +1,21 @@
 /* Custom styles for Nitish Raj's personal website */
 
+/* Profile image styling */
+.quarto-about-trestles .about-entity .about-image {
+  border-radius: 15px !important;  /* Rounded corners */
+  border: none !important;         /* Remove border */
+  padding: 0 !important;           /* Remove padding */
+  overflow: hidden !important;     /* Ensure image stays within rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Add subtle shadow */
+}
+
+.quarto-about-trestles .about-entity .about-image img {
+  border-radius: 15px !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 /* Global styles */
 :root {
   --primary-color: #2c3e50;
@@ -378,6 +394,14 @@ img {
   background-color: var(--secondary-color);
   color: white;
   transform: translateY(-2px);
+}
+
+/* Skill section styling */
+.skill-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
 }
 
 /* Timeline styling for experience/projects */

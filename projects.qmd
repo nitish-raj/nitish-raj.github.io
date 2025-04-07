@@ -9,13 +9,13 @@ search_exclude: false
 comments: false
 ---
 
-::: {.callout-tip appearance="default"}
+<!-- ::: {.callout-tip appearance="default"}
 ### Project Categories
 - **Data Engineering**: ETL pipelines, data warehousing, and data processing frameworks
 - **Machine Learning**: Model development, evaluation, and deployment
 - **Analytics**: Data visualization, business intelligence, and insights generation
 - **Cloud Infrastructure**: AWS and GCP solutions for data and ML workloads
-:::
+::: -->
 
 ### Coming Soon!
 
@@ -23,9 +23,9 @@ I'm currently working on adding my projects to this section. Check back soon to 
 
 In the meantime, feel free to [reach out](letstalk.qmd) if you'd like to collaborate or discuss any data engineering or MLOps topics.
 
-::: {.callout-note appearance="default"}
+<!-- ::: {.callout-note appearance="default"}
 ### Sample Projects (Coming Soon)
 - **Data Pipeline Automation**: A framework for automating ETL processes using Apache Airflow
 - **ML Model Deployment**: End-to-end MLOps pipeline for deploying machine learning models
 - **Real-time Analytics Dashboard**: Interactive dashboard for monitoring business metrics
-:::
+::: -->
