@@ -369,7 +369,6 @@ iframe {
   background-color: transparent;
 }
 
-/* Temporarily commented out for testing
 /* Dark theme override for experience section */
 .quarto-dark .experience-item {
   background: #23232b; /* Dark background */
@@ -387,7 +386,6 @@ iframe {
 .quarto-dark .experience-summary em {
    color: #5dade2; /* Lighter blue for dark background */
 }
-*/
 
 /* Cal.com iframe styling */
 #my-cal-inline {
