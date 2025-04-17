@@ -164,7 +164,7 @@ a:hover {
 }
 
 #TOC a {
-  color: #666;
+  color: $dark; // Use main text color for light theme
   transition: color 0.3s ease, padding-left 0.3s ease;
   display: block;
   padding: 0.25rem 0;
@@ -278,4 +278,63 @@ html.dark {
   border: none !important;
   padding: 0 !important;
   margin: 0 !important;
+}
+
+/* Experience section styles */
+.experience-item {
+  margin-bottom: 1.5em;
+  border: 1px solid #e0e0e0; /* Light border */
+  border-radius: $border-radius; /* Use existing variable */
+  background: #f9f9fb; /* Light background */
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.07); /* Subtle shadow */
+  padding: 0.5em 1em;
+  transition: box-shadow 0.2s, background 0.2s, color 0.2s;
+  color: $dark; /* Use dark text color variable */
+}
+.experience-item[open] {
+  box-shadow: 0 4px 16px rgba(52, 152, 219, 0.15); /* Enhanced shadow when open */
+  background: #e6f0fa; /* Slightly different background when open */
+}
+.experience-summary {
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 0;
+  color: inherit; /* Inherit color from .experience-item */
+  background: none; /* Ensure no background */
+  list-style: none; /* Remove default marker */
+} /* End of .experience-summary */
+.experience-summary::-webkit-details-marker { display: none; } /* Hide marker in Webkit */
+.experience-summary::marker { display: none; } /* Hide marker in Firefox */
+
+// Add margin to icons within skill badges
+.custom-skill-badge i {
+  margin-right: 0.5em;
+}
+
+.experience-summary em {
+  font-style: normal; /* Use normal style, maybe bold? */
+  font-weight: 500;
+  color: $secondary; /* Use secondary color variable */
+  margin-left: 0.5em;
+}
+.experience-details {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-left: 1.2em; /* Indent details */
+}
+.experience-details ul {
+  list-style-type: disc; /* Use standard bullets */
+  padding-left: 1.5em; /* Indent list items */
+  margin: 0;
+}
+.experience-details li {
+  margin-bottom: 0.4em;
+  font-size: 1em;
+  line-height: 1.5;
+  color: inherit; /* Inherit color from .experience-item */
 }

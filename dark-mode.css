@@ -367,10 +367,24 @@ html.dark .giscus {
 /* Fix for iframe in dark mode */
 iframe {
   background-color: transparent;
-  border-radius: 0;
-  border: none;
-  padding: 0;
-  margin: 0;
+}
+
+/* Dark theme override for experience section */
+.quarto-dark .experience-item {
+  background: #23232b; /* Dark background */
+  border-color: #444; /* Darker border */
+  color: #f2f2f2; /* Light text */
+}
+.quarto-dark .experience-item[open] {
+  background: #2d3540; /* Slightly different dark background when open */
+}
+/* Summary text color is inherited, ensure details list text is also light */
+.quarto-dark .experience-details li {
+   color: #f2f2f2; /* Light text for list items */
+}
+/* Adjust employer emphasis color for dark mode if needed */
+.quarto-dark .experience-summary em {
+   color: #5dade2; /* Lighter blue for dark background */
 }
 
 /* Cal.com iframe styling */

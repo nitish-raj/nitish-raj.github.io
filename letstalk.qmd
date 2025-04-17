@@ -11,8 +11,6 @@ search_exclude: true
 
 ## Schedule a Call
 
-I'm always open to connecting with fellow professionals, discussing potential collaborations, or providing advice on data engineering and MLOps projects.
-
 ::: {.callout-note appearance="default"}
 ### Available for:
 - **Technical discussions** about data engineering and MLOps

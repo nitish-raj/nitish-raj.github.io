@@ -4,10 +4,10 @@ project:
     - "*.qmd"
 
 website:
-  title: "Nitish Raj"
+  title: ""
   site-url: "https://www.rajnitish.com"
   
-  description: "Nitish Raj - Data Engineer & MLOps Professional"
+  description: "Nitish Raj - Data Engineering Professional"
   favicon: images/NR_logo.png
   image: images/personal_treebg-PhotoRoom.png
   twitter-card:

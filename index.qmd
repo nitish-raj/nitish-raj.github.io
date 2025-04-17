@@ -1,6 +1,6 @@
 ---
 title: "Nitish Raj"
-subtitle: "Data Engineer & MLOps Professional"
+subtitle: "Data Engineering Professional"
 image: images/personal_treebg-PhotoRoom.png
 image-alt: "Nitish Raj"
 about:
@@ -51,72 +51,76 @@ comments: false
   background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
 }
 
-/* Profile image styling - more specific selectors */
-.quarto-about-trestles .about-entity .about-image,
-.quarto-about-trestles .about-entity .about-image img,
-.about-image,
-.about-image img,
-div.quarto-about-trestles div.about-entity div.about-image,
-div.quarto-about-trestles div.about-entity div.about-image img {
-  border-radius: 15px !important;  /* Rounded corners */
-  border: none !important;         /* Remove border */
-  padding: 0 !important;           /* Remove padding */
-  overflow: hidden !important;     /* Ensure image stays within rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Add subtle shadow */
-  margin: 0 !important;
-}
 </style>
 
 ## About Me
 
-I am an engineering professional with 8+ years of experience in delivering advanced solutions that drive business growth. I specialize in data engineering and MLOps, creating robust data pipelines and machine learning infrastructure that transform raw data into actionable insights.
+Data Engineer with 10+ years of experience. Skilled in connecting technology with strategy, leading teams, and sharing knowledge. Open to new ideas and collaborations.
 
 ::: {.callout-note appearance="default"}
 ### My Expertise
-- **Data Engineering**: Building scalable data pipelines and ETL processes
+- **Data Engineering**: Building data models and scalable ETL processes
 - **MLOps**: Implementing CI/CD for machine learning models
 - **Cloud Services**: AWS and GCP architecture and implementation
 - **Analytics**: Transforming data into actionable business intelligence
 :::
-
-In my professional journey, I've always been keen to learn more and work well with my team. This has helped me handle complex projects and make a notable difference. I like to connect the technical side of things with the business side, and I take pride in leading and mentoring.
-
-I'm always ready to bring new ideas to life, and I welcome the chance to connect with fellow data professionals and industry leaders as we build the future together.
 
 ## Skills
 
 ::: {.grid}
 ::: {.g-col-12}
 <div class="custom-skill-section">
-  <span class="custom-skill-badge">Python</span>
-  <span class="custom-skill-badge">SQL</span>
-  <span class="custom-skill-badge">R</span>
-  <span class="custom-skill-badge">PySpark</span>
-  <span class="custom-skill-badge">Docker</span>
-  <span class="custom-skill-badge">Git</span>
-  <span class="custom-skill-badge">AWS</span>
-  <span class="custom-skill-badge">GCP</span>
+  <span class="custom-skill-badge"><i class="fab fa-python"></i> Python</span>
+  <span class="custom-skill-badge"><i class="fas fa-database"></i> SQL</span>
+  <span class="custom-skill-badge"><i class="fab fa-r-project"></i> R</span>
+  <span class="custom-skill-badge"><i class="fab fa-docker"></i> Docker</span>
+  <span class="custom-skill-badge"><i class="fab fa-git-alt"></i> Git</span>
+  <span class="custom-skill-badge"><i class="fab fa-aws"></i> AWS</span>
+  <span class="custom-skill-badge"><i class="fab fa-google"></i> GCP</span>
   <span class="custom-skill-badge">Tableau</span>
-  <span class="custom-skill-badge">Power BI</span>
   <span class="custom-skill-badge">dbt</span>
-  <span class="custom-skill-badge">Machine Learning</span>
 </div>
 :::
 :::
 
 ## Experience
 
-### Senior Data Engineer (2021 - Present)
+<details class='experience-item'>
+<summary class='experience-summary'><span>Data Engineer, <em>Creos Luxembourg</em></span><span>06/2025 – Present</span></summary>
+<div class='experience-details'>
+<ul>
+</ul>
+</div>
+</details>
 
-Leading data engineering initiatives, designing and implementing data pipelines, and collaborating with cross-functional teams to deliver data-driven solutions.
+<details class='experience-item'>
+<summary class='experience-summary'><span>Senior Business Intelligence Engineer, <em>Amazon</em></span><span>08/2018 – 04-2024</span></summary>
+<div class='experience-details'>
+<ul>
+<li>Applied data engineering principles and best practices for data modelling, test-driven development, and documentation. Implemented CI/CD using AWS resources and internal tools resembling dbt, GitLab, and GitHub Actions</li>
+<li>Developed PySpark ETL for an API, which enabled a system to monitor KPIs. This resulted in a feedback loop that reduced critical escalations by >60%.</li>
+<li>Led end-to-end data modeling for OLTP and OLAP systems for WebApp based on Python (Django) and AWS (Lambda, Glue, Redshift), used by 300 FTEs globally (5 countries) that improved throughput by >50%.</li>
+<li>Developed ML algorithms (in AWS Sagemaker) to optimise the product classification, improving accuracy by >15%. Implemented the ETL process using Amazon’s internal Spark-based tool and Data Lake.</li>
+<li>Optimised sampling algorithm, reducing standard error by 20%, conserving an equivalent of 3+ FTEs, and improving the error identification rate from 5% to 10%.</li>
+<li>Collaborated with 6+ teams to establish 40+ KPIs. Developed data pipelines (using Spark and Redshift), reducing reporting delays from 10 days to just 1. Saved $7M+ in 6 months by proactively tracking and addressing false negatives.</li>
+<li>Established core KPIs to drive enhancements and support the launch of new features in supply chain simulation systems.</li>
+<li>Contributed to team expansion and development through 100+ technical interviews and providing ongoing professional mentorship.</li>
+</ul>
+</div>
+</details>
 
-### Data Engineer (2018 - 2021)
-
-Developed ETL processes, maintained data warehouses, and created data visualizations to support business decision-making.
-
-### Business Intelligence Analyst (2015 - 2018)
-
-Analyzed business data to identify trends, created reports and dashboards, and provided insights to improve business operations.
+<details class='experience-item'>
+<summary class='experience-summary'><span>Decision Scientist (Consultant), <em>Mu Sigma Business Solutions Pvt Ltd</em></span><span>07/2015 – 07/2018</span></summary>
+<div class='experience-details'>
+<ul>
+<li>Engineered ML models for targeted marketing campaigns, leveraging the Net Promoter Score (NPS) and customer behavior data, resulting in >10% improvement in customer retention rates.</li>
+<li>Promoted a data-led strategy for multi-channel attribution, identifying high-yielding customer journey channels and optimizing spend, resulting in an average 8% reduction in customer acquisition costs.</li>
+<li>Established critical KPIs for comprehensive pre- and post-value-add analysis and implemented A/B testing for credit card offers, enhancing operational efficiency through automated reporting in Tableau.</li>
+<li>Executed time-series analysis to classify transactions and isolate anomalies, providing decisive insights through Tableau visualizations.</li>
+<li>Designed an innovative data architecture for tracking European market spending and transaction metrics, successfully navigating the complexities of unstructured and multilingual data using Qlik and SQL.</li>
+</ul>
+</div>
+</details>
 
 ::: {.text-center .mt-5}
 [Let's Talk](letstalk.qmd){.btn .btn-primary .btn-lg}

@@ -1,0 +1,131 @@
+---
+title: "Nitish Raj"
+subtitle: "Data Engineer & MLOps Professional"
+image: images/personal_treebg-PhotoRoom.png
+image-alt: "Nitish Raj"
+about:
+  template: trestles
+  image-shape: rectangle
+  image-width: 15em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/nitish-raj/
+    - icon: github
+      text: GitHub
+      href: https://github.com/nitish-raj
+    - icon: google
+      text: Kaggle
+      href: https://www.kaggle.com/nitishraj
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/thenitishraj
+page-layout: full
+comments: false
+---
+
+
+
+
+
+<style>
+.custom-skill-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.custom-skill-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  color: white !important;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.custom-skill-badge:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+}
+
+/* Profile image styling - more specific selectors */
+.quarto-about-trestles .about-entity .about-image,
+.quarto-about-trestles .about-entity .about-image img,
+.about-image,
+.about-image img,
+div.quarto-about-trestles div.about-entity div.about-image,
+div.quarto-about-trestles div.about-entity div.about-image img {
+  border-radius: 15px !important;  /* Rounded corners */
+  border: none !important;         /* Remove border */
+  padding: 0 !important;           /* Remove padding */
+  overflow: hidden !important;     /* Ensure image stays within rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Add subtle shadow */
+  margin: 0 !important;
+}
+</style>
+
+## About Me
+
+I am an engineering professional with 8+ years of experience in delivering advanced solutions that drive business growth. I specialize in data engineering and MLOps, creating robust data pipelines and machine learning infrastructure that transform raw data into actionable insights.
+
+::: {.callout-note appearance="default"}
+### My Expertise
+- **Data Engineering**: Building scalable data pipelines and ETL processes
+- **MLOps**: Implementing CI/CD for machine learning models
+- **Cloud Services**: AWS and GCP architecture and implementation
+- **Analytics**: Transforming data into actionable business intelligence
+:::
+
+In my professional journey, I've always been keen to learn more and work well with my team. This has helped me handle complex projects and make a notable difference. I like to connect the technical side of things with the business side, and I take pride in leading and mentoring.
+
+I'm always ready to bring new ideas to life, and I welcome the chance to connect with fellow data professionals and industry leaders as we build the future together.
+
+## Skills
+
+::: {.grid}
+::: {.g-col-12}
+<div class="custom-skill-section">
+  <span class="custom-skill-badge">Python</span>
+  <span class="custom-skill-badge">SQL</span>
+  <span class="custom-skill-badge">R</span>
+  <span class="custom-skill-badge">PySpark</span>
+  <span class="custom-skill-badge">Docker</span>
+  <span class="custom-skill-badge">Git</span>
+  <span class="custom-skill-badge">AWS</span>
+  <span class="custom-skill-badge">GCP</span>
+  <span class="custom-skill-badge">Tableau</span>
+  <span class="custom-skill-badge">Power BI</span>
+  <span class="custom-skill-badge">dbt</span>
+  <span class="custom-skill-badge">Machine Learning</span>
+</div>
+:::
+:::
+
+## Experience
+
+
+
+
+```{r}
+#| echo: false
+#| results: 'asis'
+#| message: false
+#| warning: false
+
+# This script reads the docx, parses it, and prints the HTML
+source("script/exp_pro.R")
+```
+
+
+
+
+::: {.text-center .mt-5}
+[Let's Talk](letstalk.qmd){.btn .btn-primary .btn-lg}
+:::
+
