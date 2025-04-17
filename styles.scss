@@ -311,11 +311,6 @@ html.dark {
 .experience-summary::-webkit-details-marker { display: none; } /* Hide marker in Webkit */
 .experience-summary::marker { display: none; } /* Hide marker in Firefox */
 
-// Add margin to icons within skill badges
-.custom-skill-badge i {
-  margin-right: 0.5em;
-}
-
 .experience-summary em {
   font-style: normal; /* Use normal style, maybe bold? */
   font-weight: 500;
@@ -337,4 +332,9 @@ html.dark {
   font-size: 1em;
   line-height: 1.5;
   color: inherit; /* Inherit color from .experience-item */
+}
+
+// Add margin to icons within skill badges
+.custom-skill-badge i {
+  margin-right: 0.5em;
 }
