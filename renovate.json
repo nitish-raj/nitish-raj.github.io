@@ -1,22 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-
   "extends": ["config:recommended", ":preserveSemverRanges"],
-
   "schedule": ["before 6am on sunday"],
-
   "rangeStrategy": "bump",
-
   "semanticCommits": "enabled",
   "semanticCommitType": "chore",
   "semanticCommitScope": "deps",
 
-  "npm": {
-    "enabled": true
-  },
-  "renv": {
-    "enabled": true
-  },
+  "npm": { "enabled": true },
 
   "regexManagers": [
     {
@@ -26,6 +17,15 @@
       "currentValueTemplate": "$1",
       "datasourceTemplate": "github-releases",
       "depTypeTemplate": "devDependencies"
+    },
+    {
+     
+      "fileMatch": ["^renv\\.lock$"],
+      "matchStrings": ["\"(.+)\": \"(.+)\""],
+      "depNameTemplate": "$1",
+      "currentValueTemplate": "$2",
+      "datasourceTemplate": "cran",
+      "depTypeTemplate": "dependencies"
     }
   ],
 
@@ -36,7 +36,9 @@
       "groupSlug": "npm-deps"
     },
     {
-      "matchManagers": ["renv"],
+      
+      "matchManagers": ["regex"],
+      "matchFiles": ["renv\\.lock$"],
       "groupName": "R dependencies",
       "groupSlug": "r-deps"
     },
