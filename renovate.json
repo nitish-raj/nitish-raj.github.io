@@ -1,6 +1,55 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
+
+  "extends": ["config:recommended", ":preserveSemverRanges"],
+
+  "schedule": ["before 6am on sunday"],
+
+  "rangeStrategy": "bump",
+
+  "semanticCommits": "enabled",
+  "semanticCommitType": "chore",
+  "semanticCommitScope": "deps",
+
+  "npm": {
+    "enabled": true
+  },
+  "renv": {
+    "enabled": true
+  },
+
+  "regexManagers": [
+    {
+      "fileMatch": ["^_quarto\\.yml$"],
+      "matchStrings": ["^quarto-version:\\s*\"?([0-9]+(?:\\.[0-9]+)*)\"?"],
+      "depNameTemplate": "quarto",
+      "currentValueTemplate": "$1",
+      "datasourceTemplate": "github-releases",
+      "depTypeTemplate": "devDependencies"
+    }
+  ],
+
+  "packageRules": [
+    {
+      "matchManagers": ["npm"],
+      "groupName": "npm dependencies (CSS/SCSS/HTML/JS)",
+      "groupSlug": "npm-deps"
+    },
+    {
+      "matchManagers": ["renv"],
+      "groupName": "R dependencies",
+      "groupSlug": "r-deps"
+    },
+    {
+      "matchDatasources": ["github-releases"],
+      "matchPackageNames": ["quarto"],
+      "groupName": "Quarto core versions",
+      "groupSlug": "quarto-core"
+    },
+    {
+      "matchDatasources": ["github-actions"],
+      "groupName": "GitHub Actions workflows",
+      "groupSlug": "github-actions"
+    }
   ]
 }
