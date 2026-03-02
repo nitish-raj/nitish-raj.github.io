@@ -192,45 +192,45 @@ body:not(.quarto-dark) .callout-body strong {
 }
 
 /* Dark mode specific styles */
-html.dark body {
+body.quarto-dark {
   background-color: #1a1a1a;
   color: #f8f9fa;
 }
 
-html.dark .navbar {
+body.quarto-dark .navbar {
   background-color: #2c3e50 !important;
 }
 
-html.dark .navbar-brand,
-html.dark .nav-link {
+body.quarto-dark .navbar-brand,
+body.quarto-dark .nav-link {
   color: #f8f9fa !important;
 }
 
-html.dark .card {
+body.quarto-dark .card {
   background-color: #2c3e50;
   color: #f8f9fa;
 }
 
-html.dark .footer {
+body.quarto-dark .footer {
   background-color: #2c3e50 !important;
   color: #f8f9fa;
 }
 
-html.dark .footer a {
+body.quarto-dark .footer a {
   color: #3498db;
 }
 
-html.dark .btn-outline-secondary {
+body.quarto-dark .btn-outline-secondary {
   color: #f8f9fa;
   border-color: #f8f9fa;
 }
 
-html.dark .btn-outline-secondary:hover {
+body.quarto-dark .btn-outline-secondary:hover {
   background-color: #3498db;
   color: #f8f9fa;
 }
 
-html.dark .skill-badge {
+body.quarto-dark .skill-badge {
   background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
   color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -238,13 +238,13 @@ html.dark .skill-badge {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-html.dark .skill-badge:hover {
+body.quarto-dark .skill-badge:hover {
   background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
-html.dark .skill-section {
+body.quarto-dark .skill-section {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
@@ -252,69 +252,69 @@ html.dark .skill-section {
 }
 
 /* Dark mode callout styling */
-html.dark .callout {
+body.quarto-dark .callout {
   border-color: #4a5568 !important;
   background-color: #2c3e50 !important;
 }
 
-html.dark .callout-note {
+body.quarto-dark .callout-note {
   border-left-color: #3498db !important;
 }
 
-html.dark .callout-tip {
+body.quarto-dark .callout-tip {
   border-left-color: #2ecc71 !important;
 }
 
-html.dark .callout-title {
+body.quarto-dark .callout-title {
   color: #f8f9fa !important;
 }
 
-html.dark .callout-body {
+body.quarto-dark .callout-body {
   color: #f8f9fa !important;
 }
 
-html.dark .callout-body strong {
+body.quarto-dark .callout-body strong {
   color: #3498db !important;
 }
 
-html.dark pre {
+body.quarto-dark pre {
   background-color: #2c3e50 !important;
   color: #f8f9fa !important;
 }
 
-html.dark code {
+body.quarto-dark code {
   color: #3498db !important;
 }
 
-html.dark blockquote {
+body.quarto-dark blockquote {
   border-left-color: #3498db;
   color: #f8f9fa;
 }
 
-html.dark table {
+body.quarto-dark table {
   color: #f8f9fa;
 }
 
-html.dark th {
+body.quarto-dark th {
   background-color: #2c3e50;
 }
 
-html.dark tr:nth-child(even) {
+body.quarto-dark tr:nth-child(even) {
   background-color: #343a40;
 }
 
 /* Title banner styling for dark mode */
-html.dark .quarto-title-banner {
+body.quarto-dark .quarto-title-banner {
   background-color: #2c3e50 !important;
 }
 
-html.dark .quarto-title-banner .quarto-title .title,
-html.dark .quarto-title-banner .quarto-title .subtitle,
-html.dark .quarto-title-banner .quarto-title .description {
+body.quarto-dark .quarto-title-banner .quarto-title .title,
+body.quarto-dark .quarto-title-banner .quarto-title .subtitle,
+body.quarto-dark .quarto-title-banner .quarto-title .description {
   color: #f8f9fa !important;
 }
 
-html.dark .quarto-title-banner .quarto-title .description {
+body.quarto-dark .quarto-title-banner .quarto-title .description {
   color: #cbd5e0 !important;
 }
 
@@ -328,7 +328,7 @@ html.dark .quarto-title-banner .quarto-title .description {
 }
 
 /* Dark mode giscus */
-html.dark .giscus {
+body.quarto-dark .giscus {
   --color-text-primary: #f8f9fa;
   --color-text-secondary: #cbd5e0;
   --color-border-primary: #4a5568;
