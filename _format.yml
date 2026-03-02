@@ -1,10 +1,13 @@
 format:
   html:
     theme:
-      light: flatly
-      dark: darkly
+      light:
+        - flatly
+        - styles.scss
+      dark:
+        - darkly
+        - styles.scss
     css: 
-      - styles.scss
       - dark-mode.css
     toc: true
     toc-location: left
@@ -13,7 +16,7 @@ format:
     code-fold: false
     link-external-icon: true
     link-external-newwindow: true
-    link-external-filter: '^(?:http:|https:)\/\/www\.rajnitish\.com\/**'
+    link-external-filter: '^(?:http:|https:)\/\/(?:www\.)?rajnitish\.com(?:\/|$)'
     citations-hover: true
     footnotes-hover: true
     include-in-header:

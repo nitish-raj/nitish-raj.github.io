@@ -119,7 +119,11 @@ I'm always ready to bring new ideas to life, and I welcome the chance to connect
 #| warning: false
 
 # This script reads the docx, parses it, and prints the HTML
-source("script/exp_pro.R")
+if (file.exists("script/exp_pro.R")) {
+  source("script/exp_pro.R")
+} else {
+  cat("<!-- Missing legacy script: script/exp_pro.R -->")
+}
 ```
 
 
@@ -128,4 +132,3 @@ source("script/exp_pro.R")
 ::: {.text-center .mt-5}
 [Let's Talk](letstalk.qmd){.btn .btn-primary .btn-lg}
 :::
-
